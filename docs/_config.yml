@@ -7,3 +7,13 @@ google_analytics: UA-158593402-1
 #   zip_title: Download latest release
 #   zip_hide: false
 #   tar_hide: true
+
+主题：jekyll-theme-slate
+显示下载：假
+标题： Homekit Infused 5
+google_analytics：UA-158593402-1
+＃ 纽扣：
+# zip_url：https://github.com/jimz011/homekit-infused/archive/refs/tags/2022.3.0.zip
+# zip_title: 下载最新版本
+# zip_hide: 假
+# tar_hide: 真
