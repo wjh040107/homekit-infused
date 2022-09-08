@@ -10,17 +10,17 @@
 - [关于我](about.md)
 - [谢谢](thanks.md)
 
-## Splitting the Configuration
-It is possible to split your configuration so you can organize your views better and make your code more readable.
+## 拆分配置
+可以拆分配置，以便更好地组织视图并使代码更具可读性。
 
-Since it is useless to rewrite an entire documentation about this, here is the [official documentation](https://www.home-assistant.io/docs/configuration/splitting_configuration/).
+由于重写整个文档是没有用的，这里是 [官方文档](https://www.home-assistant.io/docs/configuration/splitting_configuration/).
 
-I mention this, since I believe it is one of the few things that new users don't get to see until they have already invested a lot of time into their dashboards/configurations. You can do this for your configuration, lovelace, automations etc. etc. Basically anything in Home Assistant can be split using this method. And it will eventually make your code a lot better readable and most of all, you will probably have a better time finding code that you made a long time ago.
+我提到这一点，因为我相信这是新用户在他们已经投入大量时间在他们的仪表板/配置上之前看不到的少数东西之一。您可以为您的配置、lovelace、自动化等执行此操作。基本上家庭助理中的任何内容都可以使用此方法进行拆分。它最终将使您的代码更具可读性，最重要的是，您可能会更好地找到很久以前编写的代码。
 
-This basically allows you to split up your configuration in multiple files.
+这基本上允许您将配置拆分为多个文件。
 
-#### Splitting the views.yaml file
-If you have read the official documentation you will have found that you can split basically any file into any folder, as long as you refer to it from the main file. This is also possible for the views.yaml file, for this example we will use a simple example on how to split your views into multiple files. For this example you must create a folder named `views` in `/hki-user/` (the full path would look like this `/hki-user/views`).
+#### 拆分views.yaml文件
+如果您阅读过官方文档，您会发现您基本上可以将任何文件拆分到任何文件夹中，只要您从主文件中引用它即可。 views.yaml 文件也可以这样做，在本例中，我们将使用一个简单的示例来说明如何将视图拆分为多个文件。对于此示例，您必须在 `/hki-user/` 中创建一个名为 `views` (完整路径如下所示 `/hki-user/views`).
 
 ```yaml
 # views.yaml (example)
@@ -66,6 +66,6 @@ living_room:
           - light.lava_lamp
 ```
 
-Using this method allows you to add multiple views in the same file as well as having multiple files, but you MUST define the object for each view.
+使用此方法允许您在同一个文件中添加多个视图以及拥有多个文件，但您必须为每个视图定义对象。
 
-Whatever method you choose doesn't really matter, it is really up to personal preference, they are just methods of organising your code. If you do not feel comfortable doing this just use the `views.yaml` file.
+无论您选择哪种方法并不重要，这完全取决于个人喜好，它们只是组织代码的方法。 如果您不喜欢这样做，只需使用 `views.yaml` 文件。
