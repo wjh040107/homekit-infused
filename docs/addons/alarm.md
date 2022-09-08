@@ -1,18 +1,18 @@
 # Homekit Infused 5
 
-## Content
-- [Introduction](../index.md)
-- [Installation](../installation.md)
-- [Configuration](../configuration.md)
-- [Addons](../addons.md)
-- [Updates](../updates.md)
-- [Issues & Questions](../issues.md)
-- [About Me](../about.md)
-- [Thanks](../thanks.md)
+## 内容
+- [简介](index.md)
+- [安装](installation.md)
+- [配置](configuration.md)
+- [插件](addons.md)
+- [更新](updates.md)
+- [问题和疑问](issues.md)
+- [关于我](about.md)
+- [谢谢](thanks.md)
 
-## Alarm
+## Alarm警报
 
-You can setup your alarm in here including the header badge and/or popup. The settings on this page MUST be configured in `/hki-user/config/config.yaml`!
+您可以在此处设置警报，包括标题徽章和/或弹出窗口。 此页面上的设置必须在 `/hki-user/config/config.yaml` 中配置！
 
 | Name | Required | Default | Description |
 |----------------------------------|-------------|----------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -26,24 +26,24 @@ You can setup your alarm in here including the header badge and/or popup. The se
 | popup | no | keypad | Design your own popup when clicking this badge (*Note: Will not work if tap_action is defined!*), this must be a list of cards! If ommitted it will show a keypad instead |
 
 ```yaml
-# config.yaml (default settings)
+# config.yaml (默认设置)
   alarm:
     entity: alarm_control_panel.home_alarm
     show_badge: true
 ```
 ```yaml
-# config.yaml (example custom cards)
+# config.yaml (示例自定义卡片)
   alarm:
     entity: alarm_control_panel.home_alarm
     show_badge: true
     popup:
       - type: markdown
-        content: My Alarm Panel
+        content: 我的警报面板
       - type: alarm-panel
         entity: alarm_control_panel.home_alarm
 ```
 
-### Images:
+### 图片:
 
 ![Homekit Infused](../images/hki-alarm-2.png)
 ![Homekit Infused](../images/hki-alarm-1.png)
