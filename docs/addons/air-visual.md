@@ -16,7 +16,7 @@
 
 ### HACS 要求
 
-| Name | Type  | Description |
+| 名称 | 类型  | 说明 |
 |----------------------------------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [Air Visual Card](https://github.com/dnguyen800/air-visual-card) | Frontend | A card that shows you air quality |
 
@@ -26,7 +26,7 @@ You can use any of the following options to modify your addon.
 
 ### Stack and Addon config
 
-| Name | Required | Default | Description |
+| 名称 | 必需 | 默认 | 说明 |
 |----------------------------------|-------------|----------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | title | no | undefined | Set the title of the stack, ommitting this line will or setting `title: hide` will hide the title |
 | [view_layout](layout.md#view-layout) | no | undefined | This is best used in conjunction with the [layout](layout.md#view-layout) addon, but can also be used to control whether to show this stack on different screen sizes. |
@@ -52,6 +52,6 @@ You can use any of the following options to modify your addon.
           city_name: Eindhoven
 ```
 
-### Images:
+### 图片:
 
 ![Homekit Infused](../images/hki-air-visual.png)
