@@ -28,8 +28,8 @@ views:
   !include_dir_named ../views
 ```
 
-The above file will not need to be touched again since all config will be taken from the folder we have just created.
-Create a file with the name of your object in `/hki-user/views` (the file name will be the object and title of the view)
+上面的文件不需要再被触及，因为所有的配置都来自我们刚刚创建的文件夹。
+在 `/hki-user/views` 中创建一个具有对象名称的文件（文件名将是视图的对象和标题）
 
 ```yaml
 # hki-user/views/livingroom.yaml
@@ -41,10 +41,10 @@ addons:
         - light.lava_lamp
 ```
 
-When using this method you MUST define EVERY view in a separate file. You can NOT have multiple views in the same file!
-Basically you do the exact same thing as in the views.yaml file, you have just split them up into multiple files.
+使用此方法时，您必须在单独的文件中定义每个视图。 您不能在同一个文件中有多个视图！
+基本上，您所做的事情与在 views.yaml 文件中的操作完全相同，只是将它们拆分为多个文件。
 
-There is also an alternative way users can split up the configuration.
+还有另一种方式，用户可以拆分配置。
 ```yaml
 # views.yaml (example)
 views:
