@@ -28,16 +28,16 @@
 
 ### 视图配置
 
-| Name | Required | Default | Description |
+| 名称 | 必须 | 默认 | 说明 |
 |----------------------------------|-------------|----------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| title | no | undefined | Set the title of the stack, ommitting this line will or setting `title: hide` will hide the title |
-| columns | no | 3 | Define the number of columns this stack will use |
-| square | no | true | Set if the buttons should be square or not, this is only useful when you set individual aspect_ratios in the config below |
-| lock | no | false | this locks the entire stack and will now need two taps to turn on/off, the first tap unlocks, the second toggles |
-| [view_layout](layout.md#view-layout) | no | undefined | This is best used in conjunction with the [layout](layout.md#view-layout) addon, but can also be used to control whether to show this stack on different screen sizes. |
-| type | no | undefined | Setting a type can make the stack condtional, this option will ONLY accept `conditional` |
-| conditions | no | undefined | Add entities and conditions, this will determine when this addon will be shown, e.g. if entity x is turned `on`, then show this addon (see [addons](../addons.md) for examples |
-| entities | yes | list of entities | List all your entities you want to show up here |
+| title | no | undefined | 设置视图的标题，省略此行或设置 `title: hide` 将隐藏标题 |
+| columns | no | 3 | 定义此视图将使用的列数 |
+| square | no | true | 设置按钮是否应该是方形的，这仅在您在下面的配置中设置单个 aspect_ratios 时有用 |
+| lock | no | false | 这会锁定整个视图，现在需要两次点击来打开/关闭，第一次点击解锁，第二次切换 |
+| [view_layout](layout.md#view-layout) | no | undefined | 这最好与 [layout](layout.md#view-layout) 插件一起使用，但也可以用于控制是否在不同的屏幕尺寸上显示此视图。 |
+| type | no | undefined | 设置类型可以使堆栈有条件，此选项将只接受 `conditional` |
+| conditions | no | undefined | 添加实体和条件，这将确定何时显示此插件，例如如果实体 x 已打开 `on` ，则显示此插件（参见 [addons](../addons.md) 示例 |
+| entities | yes | list of entities | 列出您想在此处显示的所有实体 |
 
 ### 按钮选项
 
