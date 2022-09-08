@@ -1,26 +1,26 @@
-# Homekit Infused 5
+# Homekit 注入 5
 
-## Content
-- [Introduction](index.md)
-- [Installation](installation.md)
-- [Configuration](configuration.md)
-- [Addons](addons.md)
-- [Updates](updates.md)
-- [Issues & Questions](issues.md)
-- [About Me](about.md)
-- [Thanks](thanks.md)
+＃＃ 内容
+- [简介](index.md)
+- [安装](installation.md)
+- [配置](configuration.md)
+- [插件](addons.md)
+- [更新](updates.md)
+- [问题和问题](issues.md)
+- [关于我](about.md)
+- [谢谢](thanks.md)
 
-## Configuration
-In Homekit Infused it is super easy to setup views and configure them for either the built-in addons or custom cards. Don't forget to read the tips & tricks section at the end of this page!.
+＃＃ 配置
+在 Homekit Infused 中，为内置插件或自定义卡片设置和配置视图非常容易。不要忘记阅读本页末尾的提示和技巧部分！
 
-*NOTE: For ANY change in the config below to take effect you MUST restart Home Assistant!!
+*注意：要使以下配置中的任何更改生效，您必须重新启动 Home Assistant！
 
-### Setting up views
-Homekit Infused is a YAML style dashboard and as such you must configure it through YAML files. To make it simple Homekit Infused is mostly managed through a single file `/hki-user/config/views.yaml` and you should use that file to edit Homekit Infused.
+### 设置视图
+Homekit Infused 是一个 YAML 风格的仪表板，因此您必须通过 YAML 文件对其进行配置。为了简单起见，Homekit Infused 主要通过单个文件 `/hki-user/config/views.yaml` 进行管理，您应该使用该文件来编辑 Homekit Infused。
 
-To start open the file mentioned above. You will find that 2 views are already configured for you, but any new view or changes to the already included views should be done in this file.
+开始打开上述文件。您会发现已经为您配置了 2 个视图，但任何新视图或对已包含视图的更改都应在此文件中完成。
 
-To create a new view, you must set an object (in this case the room name) to start a new view. This is the very first line of your new view.
+要创建新视图，您必须设置一个对象（在本例中为房间名称）以启动新视图。这是你新观点的第一行。
 
 ```yaml
 # views.yaml (example minimal configuration)
