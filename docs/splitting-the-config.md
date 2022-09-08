@@ -1,14 +1,14 @@
 # Homekit Infused 5
 
-## Content
-- [Introduction](index.md)
-- [Installation](installation.md)
-- [Configuration](configuration.md)
-- [Addons](addons.md)
-- [Updates](updates.md)
-- [Issues & Questions](issues.md)
-- [About Me](about.md)
-- [Thanks](thanks.md)
+## 内容
+- [简介](index.md)
+- [安装](installation.md)
+- [配置](configuration.md)
+- [插件](addons.md)
+- [更新](updates.md)
+- [问题和疑问](issues.md)
+- [关于我](about.md)
+- [谢谢](thanks.md)
 
 ## Splitting the Configuration
 It is possible to split your configuration so you can organize your views better and make your code more readable.
