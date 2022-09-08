@@ -8,35 +8,36 @@
 >
 > * __许可人注意事项：__ 我们的公共许可旨在供那些有权以受版权和某些其他权利限制的方式使用材料的人使用。我们的许可证是不可撤销的。许可人在应用之前应阅读并理解他们选择的许可的条款和条件。许可方还应在申请我们的许可之前确保所有必要的权利，以便公众可以按预期重复使用这些材料。许可人应清楚地标记任何不受许可约束的材料。这包括其他 CC 许可材料，或在版权例外或限制下使用的材料。 [许可人的更多注意事项](http://wiki.creativecommons.org/Considerations_for_licensors_and_licensees#Considerations_for_licensors)。
 >
-> * __Considerations for the public:__ By using one of our public licenses, a licensor grants the public permission to use the licensed material under specified terms and conditions. If the licensor’s permission is not necessary for any reason–for example, because of any applicable exception or limitation to copyright–then that use is not regulated by the license. Our licenses grant only permissions under copyright and certain other rights that a licensor has authority to grant. Use of the licensed material may still be restricted for other reasons, including because others have copyright or other rights in the material. A licensor may make special requests, such as asking that all changes be marked or described. Although not required by our licenses, you are encouraged to respect those requests where reasonable. [More considerations for the public](http://wiki.creativecommons.org/Considerations_for_licensors_and_licensees#Considerations_for_licensees).
+>
+> * __公众注意事项：__ 通过使用我们的一项公共许可，许可人授予公众在特定条款和条件下使用许可材料的许可。如果出于任何原因（例如，由于任何适用的版权例外或限制）不需要许可人的许可，则该使用不受许可的约束。我们的许可仅授予许可人有权授予的版权和某些其他权利下的许可。许可材料的使用仍可能因其他原因受到限制，包括其他人对该材料拥有版权或其他权利。许可人可能会提出特殊要求，例如要求标记或描述所有更改。尽管我们的许可没有要求，但我们鼓励您在合理的情况下尊重这些要求。 [更多公众注意事项](http://wiki.creativecommons.org/Considerations_for_licensors_and_licensees#Considerations_for_licensees)。
 
-## Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International Public License
+## Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 国际公共许可
 
-By exercising the Licensed Rights (defined below), You accept and agree to be bound by the terms and conditions of this Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International Public License ("Public License"). To the extent this Public License may be interpreted as a contract, You are granted the Licensed Rights in consideration of Your acceptance of these terms and conditions, and the Licensor grants You such rights in consideration of benefits the Licensor receives from making the Licensed Material available under these terms and conditions.
+通过行使许可权利（定义见下文），您接受并同意受本知识共享署名-非商业性使用-禁止演绎 4.0 国际公共许可（“公共许可”）的条款和条件的约束。在本公共许可可能被解释为合同的范围内，鉴于您接受这些条款和条件，您被授予许可权利，并且许可人授予您此类权利，因为许可人从提供许可材料中获得的利益根据这些条款和条件。
 
-### Section 1 – Definitions.
+### 第 1 节 – 定义。
 
-a. __Adapted Material__ means material subject to Copyright and Similar Rights that is derived from or based upon the Licensed Material and in which the Licensed Material is translated, altered, arranged, transformed, or otherwise modified in a manner requiring permission under the Copyright and Similar Rights held by the Licensor. For purposes of this Public License, where the Licensed Material is a musical work, performance, or sound recording, Adapted Material is always produced where the Licensed Material is synched in timed relation with a moving image.
+a. __改编材料__是指受版权和类似权利约束的材料，源自或基于许可材料，其中许可材料以需要获得版权和类似权利许可的方式进行翻译、更改、安排、转换或以其他方式修改由许可方。就本公共许可而言，如果许可材料是音乐作品、表演或录音，则始终会在许可材料与运动图像同步的情况下制作改编材料。
 
-b. __Copyright and Similar Rights__ means copyright and/or similar rights closely related to copyright including, without limitation, performance, broadcast, sound recording, and Sui Generis Database Rights, without regard to how the rights are labeled or categorized. For purposes of this Public License, the rights specified in Section 2(b)(1)-(2) are not Copyright and Similar Rights.
+b. __版权和类似权利__ 是指版权和/或与版权密切相关的类似权利，包括但不限于表演、广播、录音和特殊数据库权利，无论这些权利是如何标记或分类的。就本公共许可证而言，第 2(b)(1)-(2) 节中规定的权利不是版权和类似权利。
 
-e. __Effective Technological Measures__ means those measures that, in the absence of proper authority, may not be circumvented under laws fulfilling obligations under Article 11 of the WIPO Copyright Treaty adopted on December 20, 1996, and/or similar international agreements.
+c. __有效的技术措施__是指在没有适当授权的情况下，根据履行 1996 年 12 月 20 日通过的《世界知识产权组织版权条约》第 11 条和/或类似国际协议规定的义务的法律，不得规避的措施。
 
-f. __Exceptions and Limitations__ means fair use, fair dealing, and/or any other exception or limitation to Copyright and Similar Rights that applies to Your use of the Licensed Material.
+d. __例外和限制__ 指合理使用、公平交易和/或适用于您使用许可材料的版权和类似权利的任何其他例外或限制。
 
-h. __Licensed Material__ means the artistic or literary work, database, or other material to which the Licensor applied this Public License.
+e. __许可材料__是指许可人应用本公共许可的艺术或文学作品、数据库或其他材料。
 
-i. __Licensed Rights__ means the rights granted to You subject to the terms and conditions of this Public License, which are limited to all Copyright and Similar Rights that apply to Your use of the Licensed Material and that the Licensor has authority to license.
+一世。 __许可权利__是指根据本公共许可的条款和条件授予您的权利，这些权利仅限于适用于您使用许可材料并且许可方有权许可的所有版权和类似权利。
 
-h. __Licensor__ means the individual(s) or entity(ies) granting rights under this Public License.
+f. __许可方__ 指根据本公共许可授予权利的个人或实体。
 
-i. __NonCommercial__ means not primarily intended for or directed towards commercial advantage or monetary compensation. For purposes of this Public License, the exchange of the Licensed Material for other material subject to Copyright and Similar Rights by digital file-sharing or similar means is NonCommercial provided there is no payment of monetary compensation in connection with the exchange.
+一世。 __NonCommercial__ 表示并非主要用于或直接用于商业利益或金钱补偿。就本公共许可证而言，通过数字文件共享或类似方式将许可材料与受版权和类似权利约束的其他材料交换是非商业性的，前提是不支付与交换相关的金钱补偿。
 
-j. __Share__ means to provide material to the public by any means or process that requires permission under the Licensed Rights, such as reproduction, public display, public performance, distribution, dissemination, communication, or importation, and to make material available to the public including in ways that members of the public may access the material from a place and at a time individually chosen by them.
+g. __Share__ 是指通过任何需要许可权利许可的方式或过程向公众提供材料，例如复制、公开展示、公开表演、分发、传播、传播或进口，并向公众提供材料，包括公众成员可以从他们个人选择的地点和时间访问材料的方式。
 
-k. __Sui Generis Database Rights__ means rights other than copyright resulting from Directive 96/9/EC of the European Parliament and of the Council of 11 March 1996 on the legal protection of databases, as amended and/or succeeded, as well as other essentially equivalent rights anywhere in the world.
+h. __Sui Generi Database Rights__ 指除版权以外的权利，由 1996 年 3 月 11 日欧洲议会和理事会关于数据库法律保护的指令 96/9/EC 产生，经修订和/或成功，以及其他实质上等效的权利在世界上任何地方。
 
-l. __You__ means the individual or entity exercising the Licensed Rights under this Public License. Your has a corresponding meaning.
+i. __You__ 是指根据本公共许可行使许可权利的个人或实体。你有相应的含义。
 
 ### Section 2 – Scope.
 
