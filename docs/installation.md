@@ -44,27 +44,27 @@ HKI 4 没有直接的升级路径，HKI 5 的编写方式非常相似，但偏�
 | [Browser Mod](https://github.com/thomasloven/hass-browser_mod) | Integration | Browser-mod makes the browser more useful and gives us the opportunity to show/create custom popups and many more! |
 | [Lovelace Gen](https://github.com/thomasloven/hass-lovelace_gen) | Integration | This is the MOST important piece of the setup, without this HKI will not work! Don't add this to your `configuration.yaml` file as the included package already does so for you, if you already have `lovelace_gen:` in your `configuration.yaml` please remove or comment that line! |
 
-### Adding Resources
-Resources are added automatically when the card gets installed within HACS, but to be sure check them through `Sidebar > Lovelace Dashboards > Resources`. If there are no resources listed, make sure you either add them manually or reinstall them through HACS (you can find the url to add if you click on `redownload`, you do not need to redownload them, but you can use the URL's to add the resources manually if needed).
+### 添加资源
+在 HACS 中安装卡时会自动添加资源，但请务必通过 侧边栏 > 仪表板 > 资源 进行检查。 如果没有列出资源，请确保您手动添加它们或通过 HACS 重新安装它们（如果单击“重新下载”，您可以找到要添加的url，您不需要重新下载它们，但您可以使用该URL手动添加资源）。
 
-If you can't see the resources tab, set your profile to `advanced mode` in `Sidebar > Profile`!
+如果您看不到资源选项卡，请在 侧边栏 > 个人资料 中将您的个人资料设置为“高级模式”！
 
-### Installation
-Download the project, you can grab the latest release from [here](https://github.com/jimz011/homekit-infused/releases).
-Copy the following files/folders to the root of your Home Assistant installation
+### 安装
+下载项目，您可以从 [这里](https://github.com/jimz011/homekit-infused/releases) 获取最新版本。
+将以下文件/文件夹复制到 Home Assistant 安装的根目录
 
-- Copy the `/hki-base/` folder to the root of your setup
-- Copy the `/hki-user/` folder to the root of your setup
-- Copy the `/packages/` folder to the root of your setup
-- Add the following lines to your `configuration.yaml` file
+- 将 `/hki-base/` 文件夹复制到安装程序的根目录
+- 将 `/hki-user/` 文件夹复制到安装程序的根目录
+- 将 `/packages/` 文件夹复制到设置的根目录
+- 将以下行添加到您的 `configuration.yaml` 文件中
 
 ```yaml
 homeassistant:
   packages: !include_dir_named packages/
 ```
 
-Optionally you can add the images folder to your setup (it has some useful images that you might want to use):
-- Copy the `/www/` folder to the root of your setup
+或者，您可以将图像文件夹添加到您的设置中（它有一些您可能想要使用的有用图像）：
+- 将 `/www/` 文件夹复制到设置的根目录
 
 **注意：** packages 文件夹有 2 个额外的文件夹，名为 `homekit-infused-theme` 和 `homekit-infused-extra`，这两个软件包是可选的，如果您不想使用 HKI 中的高级主题选项或 HKI 可以为您创建的额外传感器。
 
@@ -87,4 +87,4 @@ lovelace_gen: !include_dir_merge_named ../../hki-user/config/
 # lovelace_gen: !include_dir_merge_named ../../hki-user/config/
 ```
 
-Restart Home Assistant after you have done this change!
+完成此更改后重新启动 Home Assistant！
