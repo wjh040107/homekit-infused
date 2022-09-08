@@ -134,12 +134,12 @@ Addons can also be conditional depending on a state of an entity!
 
 What happened to the `simple_weather`, `devices`, `rooms`, `sun_card`, `find_my`, `layout`, `columns`, `mini-media-player`, `search` `vacuum` and `graph` addons that were present in HKI 4?
 
-Well the reasoning can be found below:
-- `sun_card`, `mini-media-player` and `graph` were addons that are either too large to template or unnecessary to add, you can still use them with the `custom:` addon, this allows for all their options to be unlocked and gives much much more customization.
-- `find_my` and `layout` have NOT been removed but had its documentation moved to the configuration page instead.
-- `columns` is redundant and rather confusing. Columns are now just set per addon instead.
-- `devices` has been merged into the new `button:` addon.
-- `rooms` has been reworked and is now called `areas:`.
-- `simple_weather` has been merged with the `weather:` addon and can be found there.
-- `search` is now integrated into the profile menu.
-- `vacuum` is just too hard to template whilst there are so many great options already available. I suggest using the custom addon with a nice vacuum card (like Xiaomi Vacuum Card or Xiaomi Vacuum Map Card)
+那么推理可以在下面找到：
+- `sun_card`、`mini-media-player` 和 `graph` 是对模板来说太大或不需要添加的插件，您仍然可以将它们与 `custom:` 插件一起使用，这允许它们的所有选项 被解锁并提供更多的自定义。
+- `find_my` 和 `layout` 没有被删除，而是将其文档移至配置页面。
+- `columns` 是多余的而且相当混乱。 现在只是为每个插件设置列。
+- `devices` 已合并到新的 `button:` 插件中。
+- `房间`已被重新设计，现在称为`区域：`。
+- `simple_weather` 已与 `weather:` 插件合并，可以在那里找到。
+- `search` 现在已集成到配置文件菜单中。
+- `vacuum` 模板太难了，虽然已经有很多很棒的选项可用。 我建议使用带有漂亮真空卡的自定义插件（如小米真空卡或小米真空地图卡）
