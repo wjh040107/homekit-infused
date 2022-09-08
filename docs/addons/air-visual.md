@@ -1,20 +1,20 @@
 # Homekit Infused 5
 
-## Content
-- [Introduction](../index.md)
-- [Installation](../installation.md)
-- [Configuration](../configuration.md)
-- [Addons](../addons.md)
-- [Updates](../updates.md)
-- [Issues & Questions](../issues.md)
-- [About Me](../about.md)
-- [Thanks](../thanks.md)
+## 内容
+- [简介](index.md)
+- [安装](installation.md)
+- [配置](configuration.md)
+- [插件](addons.md)
+- [更新](updates.md)
+- [问题和疑问](issues.md)
+- [关于我](about.md)
+- [谢谢](thanks.md)
 
 ## Addons > Air Visual
 
-A nice air quality card for your views.
+一张不错的空气质量卡，供您欣赏。
 
-### HACS Requirements
+### HACS 要求
 
 | Name | Type  | Description |
 |----------------------------------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -41,7 +41,7 @@ You can use any of the following options to modify your addon.
 
 
 ```yaml
-# views.yaml (example)
+# views.yaml (例子)
   my_view:
     addons:
       air_visual:
