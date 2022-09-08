@@ -18,13 +18,13 @@
 
 | 名称 | 类型  | 说明 |
 |----------------------------------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Air Visual Card](https://github.com/dnguyen800/air-visual-card) | Frontend | A card that shows you air quality |
+| [Air Visual Card](https://github.com/dnguyen800/air-visual-card) | 前端 | 一张显示空气质量的卡片 |
 
-You must have setup the Air Visual integration in Home Assistant (you can do this in the integrations section of Home Assistant)
+您必须在 Home Assistant 中设置 Air Visual 集成（您可以在 Home Assistant 的集成部分中执行此操作）
 
-You can use any of the following options to modify your addon.
+您可以使用以下任何选项来修改您的插件。
 
-### Stack and Addon config
+### 堆栈和插件配置
 
 | 名称 | 必需 | 默认 | 说明 |
 |----------------------------------|-------------|----------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
