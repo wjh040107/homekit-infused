@@ -34,13 +34,13 @@ Homekit Infused 是一个 YAML 风格的仪表板，因此您必须通过 YAML �
     icon: mdi:floor-lamp
 ```
 
-The example above will create a view for you named Living Room and automatically does the following:
-- sets the title of the view (in this case Living Room)
-- sets the path of the view for your browser to use (in this case https://hassio.local/homekit-infused/living_room)
-- sets an icon for the navigation_bar, subtitle and menu/favorites button
-- creates an entry in the menu
+上面的示例将为您创建一个名为 客厅 的视图，并自动执行以下操作：
+- 设置视图的标题（在本例中为客厅）
+- 设置浏览器使用的视图路径（在本例中为 https://hassio.local/homekit-infused/living_room）
+- 为导航栏、副标题和菜单/收藏夹按钮设置图标
+- 在菜单中创建一个条目
 
-This is the bare minimum that will give you a brand new view, however without any other code the view will be sitting empty. Homekit Infused is capable of filling the views for you, use custom user code, or both at the same time. Below are all the view options that you can add to your view to customize each view entirely to your taste.
+这是为您提供全新视图的最低要求，但是如果没有任何其他代码，该视图将是空的。 Homekit Infused 能够为您填充视图、使用自定义用户代码或同时使用两者。 以下是您可以添加到视图中的所有视图选项，以完全根据您的喜好自定义每个视图。
 
 | Name | Required | Default | Description |
 |----------------------------------|-------------|----------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -70,9 +70,9 @@ This is the bare minimum that will give you a brand new view, however without an
     show_in_favorites: true
 ```
 
-# General Config
+# 通用配置
 
-The items below can be found in `/hki-user/config/config.yaml`. These settings are predefined for you by default, but some of them can be edited to your own likings. This is not a required step to get HKI running, but you will want to edit some of these in the future.
+以下项目可以在 `/hki-user/config/config.yaml` 中找到。 默认情况下，这些设置是为您预定义的，但其中一些可以根据您自己的喜好进行编辑。 这不是运行 HKI 的必需步骤，但您将来需要编辑其中的一些。
 
 | Name | Description |
 |--------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -91,14 +91,14 @@ The items below can be found in `/hki-user/config/config.yaml`. These settings a
 | [Splitting the config](splitting-the-config.md) | This will show you how to split up the views.yaml file into multiple separate files and show you how to organize code |
 | [Theming](addons/themes.md) | How to edit the appearance of HKI like a Jedi Master? |
 
-# Tips & Tricks
+＃ 提示与技巧
 
-The performance of HKI once loaded up is blazing fast and should be very stable. However large setups using a lot of addons can have a huge impact on startup times. This is ONLY true for starting up Home Assistant. Large setups can take up to 3 minutes to restart.
-Lovelace reload times depend on setup size and will vary from 5 to 40 seconds for large setups.
+HKI 加载后的性能非常快，应该非常稳定。然而，使用大量插件的大型设置会对启动时间产生巨大影响。这仅适用于启动 Home Assistant。大型设置最多可能需要 3 分钟才能重新启动。
+Lovelace 重新加载时间取决于设置大小，对于大型设置，将在 5 到 40 秒之间变化。
 
-As mentioned this ONLY affects startup times and will not affect any other function of Home Assistant, nor will it slow down your interface once loaded.
+如前所述，这只会影响启动时间，不会影响 Home Assistant 的任何其他功能，也不会在加载后减慢您的界面。
 
-Obviously this would make you crazy if you have to edit your setup and restart every time. To solve this problem you should edit/create views one by one! Comment out your completed views (except the Home view, this is important!) and restart. You will find that restarting will only take a few seconds and this allows you to edit your dashboard super fast. Once your view has been completed and tested you can comment it out and create the next view. Once you are done with all the views just uncomment the views you have created and restart.
+显然，如果您每次都必须编辑设置并重新启动，这会让您发疯。要解决这个问题，您应该一个一个地编辑/创建视图！注释掉您完成的视图（除了主页视图，这很重要！）并重新启动。您会发现重新启动只需几秒钟，这使您可以超级快速地编辑仪表板。一旦您的视图完成并经过测试，您可以将其注释掉并创建下一个视图。完成所有视图后，只需取消注释您创建的视图并重新启动。
 
-### More examples
-I could go on with examples forever, but it is way better to just check out the example config that I have over [here](https://github.com/jimz011/homekit-infused/tree/5.x.x-personal)
+### 更多示例
+我可以永远继续使用示例，但最好只查看我在 [here](https://github.com/jimz011/homekit-infused/tree/5.x.x-personal) 上的示例配置
