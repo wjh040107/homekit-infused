@@ -47,42 +47,42 @@
 
 | 名称 | 必须 | 默认 | 说明 |
 |----------------------------------|-------------|----------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| entity | yes | undefined | 设置使用的实体 |
-| type | no | auto | 这会强制 HKI 将按钮视为特定类型，从而改变外观。在 `rgb`, `color-temp`, `switch` 或 `graph` 或 `fan` 之间进行选择。默认情况下，HKI 会尝试自行判断按钮的类型，但如果它弄错了，则通过设置 type类型强制它 |
-| name | no | global_name | 为这个按钮设置一个名字，它接受 [JS 模板](https://github.com/custom-cards/button-card#javascript-templates) |
-| label | no | none | 为这个按钮设置一个标签，它接受 [JS 模板](https://github.com/custom-cards/button-card#javascript-templates) |
-| icon | no | global_icon | 为这个按钮设置一个图标，这个接受 [JS 模板](https://github.com/custom-cards/button-card#javascript-templates) |
-| [state_display](https://github.com/custom-cards/button-card#javascript-templates) | no | undefined | 覆盖状态显示的方式，这接受 [JS 模板](https://github.com/custom-cards/button-card#javascript-templates) |
-| entity_picture | no | global_entity_picture | 为该按钮设置实体图片，注意当在 customize.yaml 或此处设置实体图片时，它将优先于图标，除非您设置 `show_entity_picture: false` ，否则接受 [JS 模板](https://github.com/custom-cards/button-card#javascript-templates) |
-| background_image | no | undefined | 将 URL 或 `/local/*` 设置为图像以显示为背景 |
-| lock | no | false | 这将锁定此按钮，现在需要点击两次才能 on/off ，第一次点击解锁，第二次切换 |
-| aspect_ratio | no | 1/1 | 为这个按钮设置一个自定义的 aspect_ratio，请注意，当设置 1/1 以外的任何内容时，您需要在堆栈配置中设置 `square: false` |
-| size | no | 25% | 设置图标大小，请注意，由于使用了网格，此设置并不总是按预期工作，请尝试一下 |
-| units | no | undefined | 覆盖或定义要在实体状态之后显示的单位。如果省略，则使用实体的单位 |
-| button_badge | no | undefined | 在您的按钮中使用 HKI 预定义的徽章，您必须定义一个要使用的实体，您只能使用它的状态！ |
-| icon_color_active | no | undefined | 当实体处于活动状态时，使用它来覆盖图标颜色，它接受 [JS 模板](https://github.com/custom-cards/button-card#javascript-templates) |
-| icon_color_inactive | no | undefined | 使用它来覆盖默认图标颜色，它接受 [JS 模板](https://github.com/custom-cards/button-card#javascript-templates) |
-| show_name | no | true | 选择显示/隐藏名称，设置为 `false` 隐藏它 |
-| show_label | no | true | 选择显示/隐藏标签，设置为 `false` 隐藏它 |
-| show_icon | no | true | 选择显示/隐藏图标，设置为 `false` 隐藏它 |
-| show_state | no | true | 选择显示/隐藏状态，设置为 `false` 隐藏它 |
-| show_last_changed | no | false | 选择显示/隐藏 last_changed 状态，设置为 `true` 以显示它，注意这将替换标签！ |
-| show_live_stream | no | false | 如果设置了相机实体，则显示实时流而不是静止图像 |
-| show_units | no | true | 选择显示/隐藏单位，设置为 `false` 隐藏它 |
-| show_entity_picture | no | true | 选择显示/隐藏 entity_picture，设置为 `false` 隐藏它 |
-| [confirmation](https://github.com/custom-cards/button-card#confirmation) | no | undefined | 显示确认弹出窗口。更多信息见 [官方文档](https://github.com/custom-cards/button-card#confirmation) 了解更多信息 |
-| template | no | undefined | 默认情况下，此按钮将采用 HKI 默认样式，您可以设置 `template: empty` 将其清除并使用自己的样式 |
-| [layout](https://github.com/custom-cards/button-card#Layout) | no | undefined | 可以使用此选项修改按钮的布局，您必须设置 `template: empty` 才能正常工作。更多信息见 [官方文档](https://github.com/custom-cards/button-card#Layout) 了解更多信息 |
-| [triggers_update](https://github.com/custom-cards/button-card#triggers_update) | no | undefined | 将触发卡片更新的 entity_id 列表。更多信息见 [官方文档](https://github.com/custom-cards/button-card#triggers_update) 了解更多信息 |
-| [group_expand](https://github.com/custom-cards/button-card#triggers_update) | no | false | 如果触发卡片更新的任何实体是组，它将自动扩展组，并且卡片将在任何子实体状态更改时更新。这也适用于嵌套组。见 [官方文档](https://github.com/custom-cards/button-card#triggers_update) 了解更多信息 |
-| spin | no | false | 如果您希望图标在状态为 `on` 时旋转，请将其设置为 `true` |
-| [styles](https://github.com/custom-cards/button-card#styles) | no | predefined | 为按钮设置自己的样式，最好与 `template: empty` 一起使用。更多信息见 [官方文档](https://github.com/custom-cards/button-card#styles) 了解更多信息 |
-| [extra_styles](https://github.com/custom-cards/button-card#injecting-css-with-extra_styles) | no | undefined | 设置额外的样式。更多信息见 [官方文档](https://github.com/custom-cards/button-card#injecting-css-with-extra_styles) 了解更多信息 | 
-| [state](https://github.com/custom-cards/button-card#State) | no | predefined | 为每个状态设置自定义样式，必须是对象列表！更多信息见 [官方文档](https://github.com/custom-cards/button-card#State) 了解更多信息 |
-| [custom_fields](https://github.com/custom-cards/button-card#Custom-Fields) | no | predefined | 使用您的自定义样式设置自定义字段。更多信息见 [官方文档](https://github.com/custom-cards/button-card#Custom-Fields) 了解更多信息 |
-| [tap_action](https://github.com/custom-cards/button-card#Action) | no | predefined | 为您的按钮设置自定义的 tap_action，默认情况下 HKI 根据实体域自动使用不同的操作。更多信息见 [官方文档](https://github.com/custom-cards/button-card#Action) 了解更多信息 |
-| [hold_action](https://github.com/custom-cards/button-card#Action) | no | predefined | 为您的按钮设置自定义 hold_action，默认情况下 HKI 根据实体域自动使用不同的操作。更多信息见 [官方文档](https://github.com/custom-cards/button-card#Action) 了解更多信息 |
-| [double_tap_action](https://github.com/custom-cards/button-card#Action) | no | predefined | 为您的按钮设置自定义 double_tap_action，默认情况下 HKI 根据实体域自动使用不同的操作。更多信息见 [官方文档](https://github.com/custom-cards/button-card#Action) 了解更多信息 |
+| entity | 是 | 未定义 | 设置使用的实体 |
+| type | 否 | auto | 这会强制 HKI 将按钮视为特定类型，从而改变外观。在 `rgb`, `color-temp`, `switch` 或 `graph` 或 `fan` 之间进行选择。默认情况下，HKI 会尝试自行判断按钮的类型，但如果它弄错了，则通过设置 type类型强制它 |
+| name | 否 | global_name | 为这个按钮设置一个名字，它接受 [JS 模板](https://github.com/custom-cards/button-card#javascript-templates) |
+| label | 否 | 无 | 为这个按钮设置一个标签，它接受 [JS 模板](https://github.com/custom-cards/button-card#javascript-templates) |
+| icon | 否 | global_icon | 为这个按钮设置一个图标，这个接受 [JS 模板](https://github.com/custom-cards/button-card#javascript-templates) |
+| [state_display](https://github.com/custom-cards/button-card#javascript-templates) | 否 | 未定义 | 覆盖状态显示的方式，这接受 [JS 模板](https://github.com/custom-cards/button-card#javascript-templates) |
+| entity_picture | 否 | global_entity_picture | 为该按钮设置实体图片，注意当在 customize.yaml 或此处设置实体图片时，它将优先于图标，除非您设置 `show_entity_picture: false` ，否则接受 [JS 模板](https://github.com/custom-cards/button-card#javascript-templates) |
+| background_image | 否 | 未定义 | 将 URL 或 `/local/*` 设置为图像以显示为背景 |
+| lock | 否 | false | 这将锁定此按钮，现在需要点击两次才能 on/off ，第一次点击解锁，第二次切换 |
+| aspect_ratio | 否 | 1/1 | 为这个按钮设置一个自定义的 aspect_ratio，请注意，当设置 1/1 以外的任何内容时，您需要在堆栈配置中设置 `square: false` |
+| size | 否 | 25% | 设置图标大小，请注意，由于使用了网格，此设置并不总是按预期工作，请尝试一下 |
+| units | 否 | 未定义 | 覆盖或定义要在实体状态之后显示的单位。如果省略，则使用实体的单位 |
+| button_badge | 否 | 未定义 | 在您的按钮中使用 HKI 预定义的徽章，您必须定义一个要使用的实体，您只能使用它的状态！ |
+| icon_color_active | 否 | 未定义 | 当实体处于活动状态时，使用它来覆盖图标颜色，它接受 [JS 模板](https://github.com/custom-cards/button-card#javascript-templates) |
+| icon_color_inactive | 否 | 未定义 | 使用它来覆盖默认图标颜色，它接受 [JS 模板](https://github.com/custom-cards/button-card#javascript-templates) |
+| show_name | 否 | true | 选择显示/隐藏名称，设置为 `false` 隐藏它 |
+| show_label | 否 | true | 选择显示/隐藏标签，设置为 `false` 隐藏它 |
+| show_icon | 否 | true | 选择显示/隐藏图标，设置为 `false` 隐藏它 |
+| show_state | 否 | true | 选择显示/隐藏状态，设置为 `false` 隐藏它 |
+| show_last_changed | 否 | false | 选择显示/隐藏 last_changed 状态，设置为 `true` 以显示它，注意这将替换标签！ |
+| show_live_stream | 否 | false | 如果设置了相机实体，则显示实时流而不是静止图像 |
+| show_units | 否 | true | 选择显示/隐藏单位，设置为 `false` 隐藏它 |
+| show_entity_picture | 否 | true | 选择显示/隐藏 entity_picture，设置为 `false` 隐藏它 |
+| [confirmation](https://github.com/custom-cards/button-card#confirmation) | 否 | 未定义 | 显示确认弹出窗口。更多信息见 [官方文档](https://github.com/custom-cards/button-card#confirmation) 了解更多信息 |
+| template | 否 | 未定义 | 默认情况下，此按钮将采用 HKI 默认样式，您可以设置 `template: empty` 将其清除并使用自己的样式 |
+| [layout](https://github.com/custom-cards/button-card#Layout) | 否 | 未定义 | 可以使用此选项修改按钮的布局，您必须设置 `template: empty` 才能正常工作。更多信息见 [官方文档](https://github.com/custom-cards/button-card#Layout) 了解更多信息 |
+| [triggers_update](https://github.com/custom-cards/button-card#triggers_update) | 否 | 未定义 | 将触发卡片更新的 entity_id 列表。更多信息见 [官方文档](https://github.com/custom-cards/button-card#triggers_update) 了解更多信息 |
+| [group_expand](https://github.com/custom-cards/button-card#triggers_update) | 否 | false | 如果触发卡片更新的任何实体是组，它将自动扩展组，并且卡片将在任何子实体状态更改时更新。这也适用于嵌套组。见 [官方文档](https://github.com/custom-cards/button-card#triggers_update) 了解更多信息 |
+| spin | 否 | false | 如果您希望图标在状态为 `on` 时旋转，请将其设置为 `true` |
+| [styles](https://github.com/custom-cards/button-card#styles) | 否 | 预设 | 为按钮设置自己的样式，最好与 `template: empty` 一起使用。更多信息见 [官方文档](https://github.com/custom-cards/button-card#styles) 了解更多信息 |
+| [extra_styles](https://github.com/custom-cards/button-card#injecting-css-with-extra_styles) | 否 | 未定义 | 设置额外的样式。更多信息见 [官方文档](https://github.com/custom-cards/button-card#injecting-css-with-extra_styles) 了解更多信息 | 
+| [state](https://github.com/custom-cards/button-card#State) | 否 | 预设 | 为每个状态设置自定义样式，必须是对象列表！更多信息见 [官方文档](https://github.com/custom-cards/button-card#State) 了解更多信息 |
+| [custom_fields](https://github.com/custom-cards/button-card#Custom-Fields) | 否 | 预设 | 使用您的自定义样式设置自定义字段。更多信息见 [官方文档](https://github.com/custom-cards/button-card#Custom-Fields) 了解更多信息 |
+| [tap_action](https://github.com/custom-cards/button-card#Action) | 否 | 预设 | 为您的按钮设置自定义的 tap_action，默认情况下 HKI 根据实体域自动使用不同的操作。更多信息见 [官方文档](https://github.com/custom-cards/button-card#Action) 了解更多信息 |
+| [hold_action](https://github.com/custom-cards/button-card#Action) | 否 | 预设 | 为您的按钮设置自定义 hold_action，默认情况下 HKI 根据实体域自动使用不同的操作。更多信息见 [官方文档](https://github.com/custom-cards/button-card#Action) 了解更多信息 |
+| [double_tap_action](https://github.com/custom-cards/button-card#Action) | 否 | 预设 | 为您的按钮设置自定义 double_tap_action，默认情况下 HKI 根据实体域自动使用不同的操作。更多信息见 [官方文档](https://github.com/custom-cards/button-card#Action) 了解更多信息 |
 
 ```yaml
 # views.yaml (示例简单，没有额外的选项)
