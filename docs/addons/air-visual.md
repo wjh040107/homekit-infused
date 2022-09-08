@@ -28,16 +28,16 @@
 
 | 名称 | 必需 | 默认 | 说明 |
 |----------------------------------|-------------|----------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| title | no | undefined | 设置栈的标题，省略此行或设置 `title: hide` 将隐藏标题 |
-| [view_layout](layout.md#view-layout) | no | undefined | 这最好与 [layout](layout.md#view-layout) 插件一起使用，但也可以用于控制是否在不同的屏幕尺寸上显示此堆栈 |
-| weather | no | unknown | 设置天气实体以在此卡片中显示天气 |
-| hide_header | no | true | 是否显示/隐藏此卡片的标题标题（这与上面定义的标题不同） |
+| title | 否 | 未定义 | 设置栈的标题，省略此行或设置 `title: hide` 将隐藏标题 |
+| [view_layout](layout.md#view-layout) | 否 | 未定义 | 这最好与 [layout](layout.md#view-layout) 插件一起使用，但也可以用于控制是否在不同的屏幕尺寸上显示此堆栈 |
+| weather | 否 | 未知 | 设置天气实体以在此卡片中显示天气 |
+| hide_header | 否 | true | 是否显示/隐藏此卡片的标题标题（这与上面定义的标题不同） |
 | air_pollution_level | yes | sensor.u_s_air_pollution_level | 设置空气污染传感器实体 |
 | air_quality_index | yes | sensor.u_s_air_quality_index | 设置空气质量指数传感器实体 |
 | main_pollutant | yes | sensor.u_s_main_pollutant | 设置主要污染物传感器实体 |
-| city_name | yes | unknown | 设置您的城市名称 |
-| type | no | undefined | 设置类型可以使堆栈有条件，此选项将只接受 `conditional` |
-| conditions | no | undefined | 添加实体和条件，这将确定何时显示此插件，例如 例如如果实体 x 已打开 `on`, 则显示此插件 (参见 [addons](../addons.md) 示例 |
+| city_name | yes | 未知 | 设置您的城市名称 |
+| type | 否 | 未定义 | 设置类型可以使堆栈有条件，此选项将只接受 `conditional` |
+| conditions | 否 | 未定义 | 添加实体和条件，这将确定何时显示此插件，例如 例如如果实体 x 已打开 `on`, 则显示此插件。参见 [addons](../addons.md) 示例 |
 
 
 ```yaml
