@@ -50,7 +50,7 @@
 | [entities](addons/entities.md) | 一张好用的实体卡 |
 | [favorites](addons/favorites.md) | 示带有您收藏视图的快捷方式的堆栈 |
 | [gauge](addons/gauge.md) | 为您的实体显示简单的仪表 |
-| [预览](addons/glance.md) | 一张好用的预览卡 |
+| [glance](addons/glance.md) | 一张好用的预览卡 |
 | [google](addons/google.md) | Google Home TTS 卡 |
 | [iframe](addons/iframe.md) | 方便的 iFrame 卡，可用于视图 |
 | [history](addons/history.md) | 这是核心 HA 图形卡，您可以将其用作 HKI 中图形插件的替代品 |
