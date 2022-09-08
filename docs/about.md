@@ -1,37 +1,36 @@
 # Homekit Infused 5
 
-## Content
-- [Introduction](index.md)
-- [Installation](installation.md)
-- [Configuration](configuration.md)
-- [Addons](addons.md)
-- [Updates](updates.md)
-- [Issues & Questions](issues.md)
-- [About Me](about.md)
-- [Thanks](thanks.md)
+＃＃ 内容
+- [简介](index.md)
+- [安装](installation.md)
+- [配置](configuration.md)
+- [插件](addons.md)
+- [更新](updates.md)
+- [问题和问题](issues.md)
+- [关于我](about.md)
+- [谢谢](thanks.md)
 
-# About Me
+＃ 关于我
 
-Hello everyone my name is Jimmy (jimz011) and I proudly present to you the latest version of Homekit Infused.
-I know there was a long 'silence' before I came with an update. I can certainly tell you why. Homekit Infused has been completely rewritten from the ground up.
-It took me months to rewrite all of it but it is finally done. (Take in account that I have a full-time job so time is a luxury product)
+大家好，我的名字是 Jimmy (jimz011)，我很自豪地向您介绍最新版本的 Homekit Infused。
+我知道在我发布更新之前有很长的“沉默”。我当然可以告诉你为什么。 Homekit Infused 已经从头开始完全重写。
+我花了几个月的时间重写所有这些，但它终于完成了。 （考虑到我有一份全职工作，所以时间是一种奢侈品）
 
-So to start off, I must sadly announce that there is no upgrade path from previous versions of HKI, the reason for this is simple. The code has changed too much!
-It would be like trying to release the youtube app as an update to the facebook app. This is obviously not ideal and I had to choose to either continue the old project, or create a new one that should be better, especially considering the future.
-So I chose to rewrite everything and boy it was a lot of work, not only did I rewrite it, I also found ways for a lot of the config to be easier to set up. As a non-developer (I am a bartender) you can imagine all the headaches it caused me to figure out a way to do this.
-But I have found ways, they might not always seem very beautiful, because remember I'm not a programmer. But hey it works, which is all that counts.
+因此，首先，我必须遗憾地宣布，以前版本的 HKI 没有升级路径，原因很简单。代码改动太大了！
+这就像试图发布 youtube 应用程序作为对 facebook 应用程序的更新一样。这显然不理想，我不得不选择继续旧项目，或者创建一个应该更好的新项目，特别是考虑到未来。
+所以我选择重写所有东西，天哪，这是很多工作，我不仅重写了它，我还找到了让很多配置更容易设置的方法。作为一名非开发人员（我是一名调酒师），您可以想象它让我想办法做到这一点的所有头痛。
+但是我找到了方法，它们可能并不总是看起来很漂亮，因为记住我不是程序员。但是，嘿，它有效，这才是最重要的。
 
-One of the major changes, which I might consider the biggest change of all is the removal of decluttering-cards. All templates are now handled through lovelace_gen as well as global configuration. Lovelace_gen was a requirement for a global config to happen.
-For all the users that made lots of customizations with this project not all hope is lost. All old decluttering-templates and cards can be cut/paste in the new config just like it was in the old one. So if you did make customizations you could still use them, but it might require you some extra work to put them on the right places.
-I will however advise you to switch over to lovelace_gen templates in the long term as this is the mod that we will see more and more in the future on other HA setups, mark my words. You can find tutorials on how to do this in the future in these docs.
-Why did I change to lovelace_gen? Well first and foremost it is a mod and not a card, it modifies the yaml parser and allows us to do templating stuff in lovelace. It also allows us to create decluttering style templates that can be used in a similar fashion that decluttering-card used.
-But it is more than that, it is currently also the only way I know of that is capable of building a global config. That is what this entire update is about, simplification. In the end only a few files will need to be edited to get you up and running fairly quickly.
+主要变化之一，我可能认为最大的变化是去除了整理卡片。所有模板现在都通过 lovelace_gen 以及全局配置进行处理。 Lovelace_gen 是全局配置发生的必要条件。
+对于使用此项目进行大量自定义的所有用户来说，并不是所有的希望都消失了。所有旧的整理模板和卡片都可以在新配置中剪切/粘贴，就像在旧配置中一样。因此，如果您确实进行了自定义，您仍然可以使用它们，但可能需要您做一些额外的工作才能将它们放在正确的位置。
+但是，我建议您长期切换到 lovelace_gen 模板，因为这是我们将来会在其他 HA 设置中越来越多地看到的 mod，请记住我的话。您可以在这些文档中找到有关如何在未来执行此操作的教程。
+为什么我改为lovelace_gen？首先，它是一个 mod 而不是一张卡片，它修改了 yaml 解析器并允许我们在 lovelace 中做模板化的东西。它还允许我们创建可以以与 decluttering-card 类似的方式使用的 decluttering 样式模板。
+但不仅如此，它也是目前我所知道的唯一能够构建全局配置的方法。这就是整个更新的目的，简化。最后，只需编辑几个文件即可让您快速启动并运行。
 
-Anyways, lets not make this any longer than it should be and get into the project as I would love to tell you more about myself and why I use Home Assistant, but you can find a lengthy interview of me that I did a while back [here](https://gadget-freakz.com/interview-with-jimz011/).
-It isn't very recent anymore, but you will certainly get the idea.
+不管怎样，让我们​​不要再做这个，而是进入这个项目，因为我很想告诉你更多关于我自己以及我为什么使用家庭助理的信息，但是你可以找到我前一段时间做过的一个冗长的采访 [在这里]（https://gadget-freakz.com/interview-with-jimz011/）。
+它不再是最近的了，但你肯定会明白的。
 
-I hope you enjoy this release,
+我希望你喜欢这个版本，
 
-Yours Sincerely,
-
+此致，
 Jimz011
