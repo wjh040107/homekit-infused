@@ -34,7 +34,7 @@
 | icon | 否 | global_icon | 为您的实体指定自定义图标 |
 | entity_picture | 否 | global_entity_picture | 为您的实体指定自定义 entity_picture |
 | battery_entity | 否 | 未定义 | 如果该实体有单独的电池实体，您可以在此处输入，否则不显示电池 |
-| geocoded_location_entity | 否 | 未定义 | 如果该实体有单独的地理编码位置实体，您可以在此处输入，否则将显示未地理编码的位置 |
+| geocoded_location_entity | 否 | 未定义 | 如果该实体有单独的地理编码位置实体，您可以在此处输入，否则将显示没有地理编码的位置 |
 
 例子:
 
