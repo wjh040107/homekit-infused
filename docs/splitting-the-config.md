@@ -23,7 +23,7 @@
 如果您阅读过官方文档，您会发现您基本上可以将任何文件拆分到任何文件夹中，只要您从主文件中引用它即可。 views.yaml 文件也可以这样做，在本例中，我们将使用一个简单的示例来说明如何将视图拆分为多个文件。对于此示例，您必须在 `/hki-user/` 中创建一个名为 `views` (完整路径如下所示 `/hki-user/views`).
 
 ```yaml
-# views.yaml (example)
+# views.yaml (例子)
 views:
   !include_dir_named ../views
 ```
@@ -33,10 +33,10 @@ views:
 
 ```yaml
 # hki-user/views/livingroom.yaml
-subtitle: My livingroom 
+subtitle: 我的客厅 
 addons:
   button:
-    - title: My livingroom lights
+    - title: 我的客厅灯
       entities:
         - light.lava_lamp
 ```
@@ -46,22 +46,22 @@ addons:
 
 还有另一种方式，用户可以拆分配置。
 ```yaml
-# views.yaml (example)
+# views.yaml (例子)
 views:
   !include_dir_merge_named ../views
 ```
 
-The above file will not need to be touched again since all config will be taken from the folder we have just created.
-Create a file with the name of your object in `/hki-user/views`, in this case the name doesn't really matter since we need to define the object.
+上面的文件不需要再被触及，因为所有的配置都来自我们刚刚创建的文件夹。
+在 `/hki-user/views` 中创建一个具有对象名称的文件，在这种情况下，名称并不重要，因为我们需要定义对象 `object` 。
 
 ```yaml
 # hki-user/views/livingroom.yaml
 living_room:
-  title: livingroom
-  subtitle: My livingroom 
+  title: 客厅
+  subtitle: 我的客厅 
   addons:
     button:
-      - title: My livingroom lights
+      - title: 我的客厅灯
         entities:
           - light.lava_lamp
 ```
