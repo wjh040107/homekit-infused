@@ -14,16 +14,16 @@
 
 您可以在此处设置警报，包括标题徽章和/或弹出窗口。 此页面上的设置必须在 `/hki-user/config/config.yaml` 中配置！
 
-| Name | Required | Default | Description |
+| 名称 | 必须 | 默认 | 说明 |
 |----------------------------------|-------------|----------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| entity | yes | alarm_control_panel.home_alarm | Sets the alarm entity used |
-| show_badge | no | true | Choose whether to show or hide the alarm badge in the header |
-| icon | no | predefined | Set your own alarm icon, this accepts [JS templates](https://github.com/custom-cards/button-card#javascript-templates) |
-| icon_color | no | predefined | Set your own icon color, this accepts [JS templates](https://github.com/custom-cards/button-card#javascript-templates) |
-| [tap_action](https://github.com/custom-cards/button-card#Action) | no | predefined | Set a custom tap_action, see [actions](https://github.com/custom-cards/button-card#Action) for more information, if you set a tap_action the default popup will no longer work and be replaced by this action instead |
-| [hold_action](https://github.com/custom-cards/button-card#Action) | no | none | Set a custom hold_action, see [actions](https://github.com/custom-cards/button-card#Action) |
-| [double_tap_action](https://github.com/custom-cards/button-card#Action) | no | none | Set a custom double_tap_action, see [actions](https://github.com/custom-cards/button-card#Action) |
-| popup | no | keypad | Design your own popup when clicking this badge (*Note: Will not work if tap_action is defined!*), this must be a list of cards! If ommitted it will show a keypad instead |
+| entity | yes | alarm_control_panel.home_alarm | 设置使用的报警实体 |
+| show_badge | no | true | 选择是否在标题中显示或隐藏警报徽章 |
+| icon | no | predefined | 设置自己的报警图标，这个接受 [JS模板](https://github.com/custom-cards/button-card#javascript-templates) |
+| icon_color | no | predefined | 设置自己的图标颜色，这接受 [JS模板](https://github.com/custom-cards/button-card#javascript-templates) |
+| [tap_action](https://github.com/custom-cards/button-card#Action) | no | predefined | 设置一个自定义的 tap_action, 查看 [actions](https://github.com/custom-cards/button-card#Action) 获取更多信息，如果你设置了一个 tap_action，默认的弹出窗口将不再起作用并被这个动作取代 |
+| [hold_action](https://github.com/custom-cards/button-card#Action) | no | none | 设置自定义 hold_action, 查看 [actions](https://github.com/custom-cards/button-card#Action) |
+| [double_tap_action](https://github.com/custom-cards/button-card#Action) | no | none | 设置自定义 double_tap_action, 查看 [actions](https://github.com/custom-cards/button-card#Action) |
+| popup | no | keypad | 单击此徽章时设计自己的弹出窗口（*注意：如果定义了 tap_action 将不起作用！*），这必须是卡片列表！如果省略，它将显示一个小键盘 |
 
 ```yaml
 # config.yaml (默认设置)
