@@ -101,25 +101,25 @@ a. ___归因。___
 
    3. 如果许可方要求，您必须在合理可行的范围内删除第 3(a)(1)(A) 条要求的任何信息。
 
-### Section 4 – Sui Generis Database Rights.
+### 第 4 节 – 特殊数据库权利。
 
-Where the Licensed Rights include Sui Generis Database Rights that apply to Your use of the Licensed Material:
+如果许可权利包括适用于您使用许可材料的特殊数据库权利：
 
-a. for the avoidance of doubt, Section 2(a)(1) grants You the right to extract, reuse, reproduce, and Share all or a substantial portion of the contents of the database for NonCommercial purposes only and provided You do not Share Adapted Material;
+a.为免生疑问，第 2(a)(1) 节授予您提取、重用、复制和共享数据库全部或大部分内容的权利，仅用于非商业目的，前提是您不共享改编材料;
 
-b. if You include all or a substantial portion of the database contents in a database in which You have Sui Generis Database Rights, then the database in which You have Sui Generis Database Rights (but not its individual contents) is Adapted Material; and
+湾。如果您将全部或大部分数据库内容包含在您拥有特殊数据库权利的数据库中，则您拥有特殊数据库权利的数据库（但不是其个别内容）是改编材料；和
 
-c. You must comply with the conditions in Section 3(a) if You Share all or a substantial portion of the contents of the database.
+b.如果您共享数据库的全部或大部分内容，您必须遵守第 3(a) 条中的条件。
 
-For the avoidance of doubt, this Section 4 supplements and does not replace Your obligations under this Public License where the Licensed Rights include other Copyright and Similar Rights.
+为免生疑问，在许可权利包括其他版权和类似权利的情况下，本第 4 节补充而非替代您在本公共许可下的义务。
 
-### Section 5 – Disclaimer of Warranties and Limitation of Liability.
+### 第 5 节 – 免责声明和责任限制。
 
-a. __Unless otherwise separately undertaken by the Licensor, to the extent possible, the Licensor offers the Licensed Material as-is and as-available, and makes no representations or warranties of any kind concerning the Licensed Material, whether express, implied, statutory, or other. This includes, without limitation, warranties of title, merchantability, fitness for a particular purpose, non-infringement, absence of latent or other defects, accuracy, or the presence or absence of errors, whether or not known or discoverable. Where disclaimers of warranties are not allowed in full or in part, this disclaimer may not apply to You.__
+a. __除非许可方另行单独承诺，否则许可方在可能的情况下按原样和可用的方式提供许可材料，并且不对许可材料作出任何形式的陈述或保证，无论是明示、暗示、法定或其他.这包括但不限于所有权、适销性、特定用途的适用性、非侵权、没有潜在或其他缺陷、准确性或是否存在错误（无论是否已知或可发现）的保证。如果不允许全部或部分免责声明，则本免责声明可能不适用于您.__
 
-b. __To the extent possible, in no event will the Licensor be liable to You on any legal theory (including, without limitation, negligence) or otherwise for any direct, special, indirect, incidental, consequential, punitive, exemplary, or other losses, costs, expenses, or damages arising out of this Public License or use of the Licensed Material, even if the Licensor has been advised of the possibility of such losses, costs, expenses, or damages. Where a limitation of liability is not allowed in full or in part, this limitation may not apply to You.__
+b. __在可能的情况下，许可方在任何情况下均不对您承担任何法律理论（包括但不限于疏忽）或其他任何直接、特殊、间接、偶然、后果性、惩罚性、惩戒性或其他损失、费用、费用或因本公共许可或使用许可材料而引起的损害，即使许可人已被告知此类损失、成本、费用或损害的可能性。如果全部或部分不允许责任限制，则此限制可能不适用于您.__
 
-c. The disclaimer of warranties and limitation of liability provided above shall be interpreted in a manner that, to the extent possible, most closely approximates an absolute disclaimer and waiver of all liability.
+c.上述保证免责声明和责任限制应以尽可能接近绝对免责声明和放弃所有责任的方式进行解释。
 
 ### Section 6 – Term and Termination.
 
