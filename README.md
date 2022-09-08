@@ -44,10 +44,10 @@ Homekit Infused 不会替换您现有的任何仪表板，因此您可以放心�
 
 *注意：本项目中使用的自定义卡片都不是我制作的，并且使用的每张自定义卡片都引用了其原始创建者以及指向其 repo 的原始链接。 最后一页的文档中提到了所有贡献者/捐赠者和给我灵感的人！
 
-### Quick Links
-#### [Click here](https://jimz011.github.io/homekit-infused/) for the documentation
-#### [Click here](https://github.com/jimz011/homekit-infused/releases) to download the latest release
-#### [Click here](docs/addons.md) for addons
+### 快速链接
+#### [Click here](https://jimz011.github.io/homekit-infused/) 获取文档
+#### [Click here](https://github.com/jimz011/homekit-infused/releases) 下载最新版本
+#### [Click here](docs/addons.md) 获取插件
 #### [Click here](https://github.com/jimz011/homekit-infused/tree/5.x.x-personal/) to view how my personal Home Assistant is setup for HKI 5
 #### [Click here](https://github.com/jimz011/homekit-infused/tree/4.x.x-docs) if you were looking for Homekit Infused 4
 
