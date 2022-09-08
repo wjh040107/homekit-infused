@@ -1,20 +1,20 @@
 # Homekit Infused 5
 
-## Content
-- [Introduction](../index.md)
-- [Installation](../installation.md)
-- [Configuration](../configuration.md)
-- [Addons](../addons.md)
-- [Updates](../updates.md)
-- [Issues & Questions](../issues.md)
-- [About Me](../about.md)
-- [Thanks](../thanks.md)
+## 内容
+- [简介](index.md)
+- [安装](installation.md)
+- [配置](configuration.md)
+- [插件](addons.md)
+- [更新](updates.md)
+- [问题和疑问](issues.md)
+- [关于我](about.md)
+- [谢谢](thanks.md)
 
 ## Addons > Button
 
-This addon lets you fill your views with very powerful buttons!
+这个插件可以让你用非常强大的按钮来填充你的视图！
 
-### HACS Requirements
+### HACS 要求
 
 | Name | Type  | Description |
 |----------------------------------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -22,11 +22,11 @@ This addon lets you fill your views with very powerful buttons!
 | [More Info Card](https://github.com/thomasloven/lovelace-more-info-card) | Frontend | This is the card that shows a standard HA styled color wheel in conjunction with the light popup card |
 | [Mini Graph Card](https://github.com/kalkih/mini-graph-card) | Frontend | Mini Graph Card gives the possibility to create more advanced graphs! |
 
-**NOTE:** this addon is just a preconfigured [custom:button-card](https://github.com/custom-cards/button-card) template. You can use 99,9% of the options that are available in that card, HKI however has some extra options/configuration that can not be found in that card.
+**注意：** 这个插件只是一个预配置的 [custom:button-card](https://github.com/custom-cards/button-card) 模板。 您可以使用该卡中 99.9% 的可用选项，但是 HKI 有一些在该卡中找不到的额外选项/配置。
 
-You can use any of the following options to modify your addon.
+您可以使用以下任何选项来修改您的插件。
 
-### Stack Config
+### 视图配置
 
 | Name | Required | Default | Description |
 |----------------------------------|-------------|----------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -39,10 +39,10 @@ You can use any of the following options to modify your addon.
 | conditions | no | undefined | Add entities and conditions, this will determine when this addon will be shown, e.g. if entity x is turned `on`, then show this addon (see [addons](../addons.md) for examples |
 | entities | yes | list of entities | List all your entities you want to show up here |
 
-### Button Options
+### 按钮选项
 
-By default you must enter an array of entities like in the examples below, this does not need extra options and will just get the global name/icon.
-You must define it as an object instead to make use of the options below.
+默认情况下，您必须输入如下示例中的实体数组，这不需要额外的选项，只会获取全局 name/icon 。
+您必须将其定义为对象才能使用以下选项。
 
 | Name | Required | Default | Description |
 |----------------------------------|-------------|----------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -84,11 +84,11 @@ You must define it as an object instead to make use of the options below.
 | [double_tap_action](https://github.com/custom-cards/button-card#Action) | no | predefined | Set a custom double_tap_action for your button, by default HKI uses a different action automatically depending on the entity domain. See [official documentation](https://github.com/custom-cards/button-card#Action) for more information |
 
 ```yaml
-# views.yaml (example simple, no extra options)
+# views.yaml (示例简单，没有额外的选项)
   living_room:
     addons:
       button:
-        - title: Living Room
+        - title: 客厅
           columns: 3
           entities:
             - switch.receiver
@@ -96,17 +96,17 @@ You must define it as an object instead to make use of the options below.
             - switch.xbox_one
 ```
 ```yaml
-# views.yaml (example simple, multiple stacks)
+# views.yaml (示例简单，多个视图)
   living_room:
     addons:
       button:
-        - title: Living Room
+        - title: 客厅
           square: false
           entities:
             - switch.receiver
             - switch.samsung_tv
             - switch.xbox_one
-        - title: Bedroom
+        - title: 卧室
           columns: 3
           entities:
             - switch.receiver
@@ -114,15 +114,15 @@ You must define it as an object instead to make use of the options below.
             - switch.xbox_one
 ```
 ```yaml
-# views.yaml (example with extra options)
+# views.yaml (带有额外选项的示例)
   living_room:
     addons:
       button:
-        - title: Living Room
+        - title: 客厅
           entities:
             - entity: switch.receiver
               icon: mdi:speakers
-              label: My Speaker
+              label: 我的扬声器
             - entity: switch.samsung_tv
               name: TV
             - entity: switch.xbox_one
@@ -130,9 +130,9 @@ You must define it as an object instead to make use of the options below.
             - entity: sensor.livingroom_temperature
               type: graph
 ```
-#### HKI Specific Button Types Extra Options
+#### HKI 特定按钮类型额外选项
 
-Some buttons get some extra options if you set `type: graph`, `type: switch`, `type: rgb` and `type: color-temp`.
+如果您设置  `type: graph`, `type: switch`, `type: rgb` 和 `type: color-temp` ，一些按钮会获得一些额外的选项。
 
 | Name | Required | Default | Description |
 |----------------------------------|-------------|----------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -142,36 +142,36 @@ Some buttons get some extra options if you set `type: graph`, `type: switch`, `t
 | graph_type | no | line | When having `type: graph` you can change the graph_type between `bar` or `line` |
 
 #### Tips
-By default the label is either the brightness of a light or empty, however with button-card JS templates you can have a cool label like this
+默认情况下，标签要么是灯的亮度，要么是空的，但是使用按钮卡 JS 模板，您可以拥有像这样的酷标签
 
 ![Homekit Infused](../images/hki-button-3.png)
 
 ```yaml
-# views.yaml (example with custom label)
+# views.yaml (带有自定义标签的示例)
   my_view:
     addons:
       button:
-        - title: Laundry Room
+        - title: 洗衣房
           entities:
             - entity: switch.washing_machine
               lock: true
               label: "[[[ return `${states['sensor.washing_machine_power'].state} W`; ]]]"
 ```
 
-The same is true for icons and you can template an icon to be different for each state:
+图标也是如此，您可以将每个状态的图标模板化为不同：
 
 ```yaml
-# views.yaml (example with custom icon)
+# views.yaml (带有自定义图标的示例)
   my_view:
     addons:
       button:
-        - title: Laundry Room
+        - title: 洗衣房
           entities:
             - entity: switch.washing_machine
               icon: "[[[ if (entity.state == 'on') return `mdi:lamp`; else return `mdi:floor-lamp` ]]]"
 ```
 
-### Images:
+### 图片:
 
 ![Homekit Infused](../images/hki-button-1.png)
 
