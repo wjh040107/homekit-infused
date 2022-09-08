@@ -17,22 +17,22 @@
 
 ```yaml
 # views.yaml (示例如何添加插件)
-  my_view:
-    subtitle: 概述
-    icon: mdi:thermostat
-    addons:
-      thermostat:
-        - title: 我的恒温器
-          entities:
+  my_view:                                  # 我的视图
+    subtitle: 概述                          # 副标题
+    icon: mdi:thermostat                    # 图标
+    addons:                                 # 插件
+      thermostat:                           # 恒温器
+        - title: 我的恒温器                 # 标题
+          entities:                         # 实体
             - # 恒温器插件配置在这里！
 
-  my_second_view:
-    subtitle: 概述
-    icon: mdi:vacuum-cleaner
-    addons:
-      button:
-        - title: 我的灯
-          entities:
+  my_second_view:                           # 我的第二个视图
+    subtitle: 概述                          # 副标题
+    icon: mdi:vacuum-clean                  # 图标
+    addons:                                 # 插件
+      button:                               # 按钮
+        - title: 我的灯                     # 标题
+          entities:                         # 实体
             - # 按钮插件配置在这里！
 ```
 # Addons
