@@ -47,15 +47,14 @@ Homekit Infused 是一个 YAML 风格的仪表板，因此您必须通过 YAML �
 | 'object' | yes | none | 设置视图的名称、路径和标题，这不是实际属性，而是视图的第一行，*注意：这不能包含特殊字符，只能使用小写字符！* |
 | title | no | view_name | 设置视图的标题，如果未定义，则将使用视图的名称，不能使用模板作为标题 |
 | subtitle | no | undefined | 设置字幕文本，这接受 [JS 模板](https://github.com/custom-cards/button-card#javascript-templates)，如果不设置字幕，它将显示默认通知 |
-| [logo](addons/logo.md) | no | undefined | 设置徽标而不是标题和副标题，设置此选项将隐藏标题和副标题，即使您已设置它们 |
 | icon | no | mdi:home | 设置导航栏、快捷按钮和字幕的图标，这也接受FA图标，您可以使用 [JS 模板](https://github.com/custom-cards/button-card#javascript-templates)，只要您不将此图标设置为显示在导航栏中 |
 | show_subtitle | no | subtitle | 设置为将标题字幕显示为true或false |
-| show_in_favorites | no | false | 如果希望此视图自动包含在收藏夹插件中，请将其设置为“true” |
-| show_in_menu | no | undefined | 这将强制在菜单插件中显示视图，这在使用“菜单：”或“视图选择器：”插件时非常有用 |
+| show_in_favorites | no | false | 如果希望此视图自动包含在收藏夹插件中，请将其设置为 `true` |
+| show_in_menu | no | undefined | 这将强制在菜单插件中显示视图，这在使用 `menu:` 或 `view_selector:` addon 时非常有用 |
 | button_label | no | no label | 设置按钮标签文本，这接受 [JS 模板](https://github.com/custom-cards/button-card#javascript-templates) |
-| button_badge | no | undefined | 这将为菜单和收藏夹按钮设置一个bagde，它将始终显示输入实体的状态，您可以使用任何实体_id(e.g. sensor.current_temperature) |
+| button_badge | no | undefined | 这将为菜单和收藏夹按钮设置一个bagde，它将始终显示输入实体的状态，您可以使用任何实体_id (例如. `sensor.current_temperature`) |
 | show_in_navbar | no | false | “设置为true”如果您希望此视图在导航栏中可见，这与菜单不同 |
-| visible | no | undefined | 这将仅为某些用户显示导航栏图标，这仅反映“show_in_navbar”为“true”时，这必须定义为列表！查看[官方文件](https://www.home-assistant.io/lovelace/views/#visible)更多信息。注意：任何用户仍然可以访问URL |
+| visible | no | undefined | 这将仅为某些用户显示导航栏图标，这仅反映 `show_in_navbar` 为 `true` 时，这必须定义为列表！查看[官方文件](https://www.home-assistant.io/lovelace/views/#visible)更多信息。注意：任何用户仍然可以访问URL |
 | [addons](addons.md) | no | undefined | 若要在视图中添加一个插件，请参阅[Addons](addons.md)部分以获取文档 |
 | [layout](addons/layout.md) | no | undefined | 更改视图布局，请参阅[Layout](addons/layout.md)部分的文档 |
 | [view_selector](addons/view-selector.md) | no | undefined | 将view_selector添加到视图顶部，请参阅[View Selector](addons/view-selector.md)以获取文档 |
