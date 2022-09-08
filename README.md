@@ -45,20 +45,20 @@ Homekit Infused 不会替换您现有的任何仪表板，因此您可以放心�
 *注意：本项目中使用的自定义卡片都不是我制作的，并且使用的每张自定义卡片都引用了其原始创建者以及指向其 repo 的原始链接。 最后一页的文档中提到了所有贡献者/捐赠者和给我灵感的人！
 
 ### 快速链接
-#### [Click here](https://jimz011.github.io/homekit-infused/) 获取文档
-#### [Click here](https://github.com/jimz011/homekit-infused/releases) 下载最新版本
-#### [Click here](docs/addons.md) 获取插件
-#### [Click here](https://github.com/jimz011/homekit-infused/tree/5.x.x-personal/) to view how my personal Home Assistant is setup for HKI 5
-#### [Click here](https://github.com/jimz011/homekit-infused/tree/4.x.x-docs) if you were looking for Homekit Infused 4
+#### [点击这里](https://jimz011.github.io/homekit-infused/) 获取文档
+#### [点击这里](https://github.com/jimz011/homekit-infused/releases) 下载最新版本
+#### [点击这里](docs/addons.md) 获取插件
+#### [点击这里](https://github.com/jimz011/homekit-infused/tree/5.x.x-personal/) 查看我的个人家庭助理是如何为 HKI 5 设置的
+#### [点击这里](https://github.com/jimz011/homekit-infused/tree/4.x.x-docs) 如果您正在寻找 Homekit Infused 4
 
-### Support Links
-#### [Click here](https://www.youtube.com/jimz011) for my YouTube channel
-#### [Click here](https://www.youtube.com/playlist?list=PLezjWQmPsNpF9zNbWAXfm3mcnDwFYLdpT) for video guides on how to install and configure HKI 5!
-#### [Click here](https://discord.gg/WZvK4Cb) to join our Discord Community with over 4000+ members
-#### [Click here](https://community.home-assistant.io/t/homekit-infused-hki-v0-13-3/117086/1) for my HA Community Forum Thread
+### 支持链接
+#### [点击这里](https://www.youtube.com/jimz011) 我的 YouTube 频道
+#### [点击这里](https://www.youtube.com/playlist?list=PLezjWQmPsNpF9zNbWAXfm3mcnDwFYLdpT) 获取有关如何安装和配置 HKI 5 的视频指南！
+#### [点击这里](https://discord.gg/WZvK4Cb) 加入我们拥有超过 4000 名成员的 Discord 社区
+#### [点击这里](https://community.home-assistant.io/t/homekit-infused-hki-v0-13-3/117086/1) 我的 HA 社区论坛主题
 
-### Video and screenshots
-#### Screenshots
+### 视频和截图
+#### 截图
 
 ![Homekit Infused](docs/images/hki-1.png)![Homekit Infused](docs/images/hki-2.png)
 
@@ -66,9 +66,9 @@ Homekit Infused 不会替换您现有的任何仪表板，因此您可以放心�
 
 ![Homekit Infused](docs/images/hki-find-my.png)
 
-#### Video
-[![Watch the video](https://img.youtube.com/vi/1ujzqV9c5Qk/maxresdefault.jpg)](https://youtu.be/1ujzqV9c5Qk)
+#### 视频
+[![观看视频](https://img.youtube.com/vi/1ujzqV9c5Qk/maxresdefault.jpg)](https://youtu.be/1ujzqV9c5Qk)
 
-#### Extra License Information
-Selling, reselling or redistribution of this dashboard is not permitted without my permission!
+#### 额外的许可证信息
+未经我的许可，不得出售、转售或重新分发此仪表板！
 
