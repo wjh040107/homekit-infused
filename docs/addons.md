@@ -35,7 +35,7 @@
           entities:                         # 实体
             - # 按钮插件配置在这里！
 ```
-# Addons
+# Addons插件
 
 | 姓名 | 说明 |
 |--------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -44,33 +44,33 @@
 | [battery](addons/battery.md) | 为您提供电池电量概览的插件 |
 | [button](addons/button.md) | 功能强大的按钮卡，可能是您唯一需要的插件 |
 | [calendar](addons/calendar.md) | 默认日历卡 |
-| [camera](addons/camera.md) | 将您的相机添加到视图中的插件 |
-| [custom](addons/custom.md) | 允许任何卡片或多张卡片的终极插件！ |
-| [energy](addons/energy.md) | 在 lovelace 中重新创建 HA 能源仪表板 |
-| [entities](addons/entities.md) | 一张好用的实体卡 |
-| [favorites](addons/favorites.md) | 示带有您收藏视图的快捷方式的堆栈 |
-| [gauge](addons/gauge.md) | 为您的实体显示简单的仪表 |
-| [glance](addons/glance.md) | 一张好用的预览卡 |
-| [google](addons/google.md) | Google Home TTS 卡 |
-| [iframe](addons/iframe.md) | 方便的 iFrame 卡，可用于视图 |
-| [history](addons/history.md) | 这是核心 HA 图形卡，您可以将其用作 HKI 中图形插件的替代品 |
-| [logbook](addons/logbook.md) | 使用日志跟踪您的实体 |
-| [map](addons/map.md) | 跟踪您的实体的地图 |
-| [media_player](addons/media-player.md) | 媒体播放器插件 |
-| [menu](addons/menu.md) | 在...菜单以外的其他视图上显示菜单！ |
-| [meteoalarm](addons/meteoalarm.md) | 一张向您展示天气警报的好卡片 |
-| [picture_elements](addons/picture-elements.md) | HKI的核心图片元素卡 |
-| [plant_status](addons/plant-status.md) | 监控您的植物 |
-| [plex](addons/plex.md) | 一个非常漂亮的 Plex 插件 |
-| [remote_control](addons/remote-control.md) | 一个漂亮的 Nvidia Shield TV/Apple TV 遥控器 |
-| [sensor](addons/sensor.md) | 核心感应卡 |
-| [statistics](addons/statistics.md) | 创建漂亮的统计图表 |
-| [upcoming_media](addons/upcoming-media.md) | 显示来自您的声纳/雷达的即将到来和最近添加的媒体 |
-| [thermostat](addons/thermostat.md) | 恒温器按钮供您查看 |
-| [weather](addons/weather.md) | HKI的天气插件，选择核心或简单天气 |
-| [xbox](addons/xbox.md) | Xbox 控制器卡 |
+| [camera摄像头](addons/camera.md) | 将您的摄像头添加到视图中的插件 |
+| [custom习惯](addons/custom.md) | 允许任何卡片或多张卡片的终极插件！ |
+| [energy能源](addons/energy.md) | 在仪表盘中重新创建 HA 能源仪表板 |
+| [entities实体卡](addons/entities.md) | 一张好用的实体卡 |
+| [favorites收藏](addons/favorites.md) | 示带有您收藏视图的快捷方式的视图 |
+| [gauge仪表](addons/gauge.md) | 为您的实体显示简单的仪表 |
+| [glance预览](addons/glance.md) | 一张好用的预览卡 |
+| [google TTS](addons/google.md) | Google Home TTS 卡 |
+| [iframe框架](addons/iframe.md) | 方便的框架卡，可用于视图 |
+| [history历史](addons/history.md) | 这是核心 HA 图形卡，您可以将其用作 HKI 中图形插件的替代品 |
+| [logbook日志记录](addons/logbook.md) | 使用日志记录您的实体 |
+| [map地图](addons/map.md) | 跟踪您的实体的地图 |
+| [media_player媒体播放器](addons/media-player.md) | 媒体播放器插件 |
+| [menu菜单](addons/menu.md) | 在...菜单以外的其他视图上显示菜单！ |
+| [meteoalarm气象](addons/meteoalarm.md) | 一张向您展示天气警报的好卡片 |
+| [picture_elements图片元素卡](addons/picture-elements.md) | HKI的核心图片元素卡 |
+| [plant_status监控植物](addons/plant-status.md) | 监控您的植物 |
+| [plex插件](addons/plex.md) | 一个非常漂亮的Plex插件 |
+| [remote_control遥控器](addons/remote-control.md) | 一个漂亮的 Nvidia Shield TV/Apple TV 遥控器 |
+| [sensor传感器](addons/sensor.md) | 核心传感器卡 |
+| [statistics统计](addons/statistics.md) | 创建漂亮的统计图表 |
+| [upcoming_media媒体预告](addons/upcoming-media.md) | 显示来自您的sonarr/radarr的即将到来和最近添加的媒体 |
+| [thermostat恒温器](addons/thermostat.md) | 恒温器按钮供您查看 |
+| [weather天气](addons/weather.md) | HKI的天气插件，选择核心或简单天气 |
+| [xbox控制器卡](addons/xbox.md) | Xbox 控制器卡 |
 
-＃＃＃ 高级
+＃＃＃ 高级用法
 
 插件可以定义多次，这在您想要一个顶部有按钮堆栈的视图、中间有一个地图、底部有另一个按钮堆栈的视图时特别有用。
 
