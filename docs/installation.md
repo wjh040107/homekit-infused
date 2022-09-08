@@ -32,7 +32,7 @@ HKI 4 没有直接的升级路径，HKI 5 的编写方式非常相似，但偏�
 |----------------------------------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [Auto Entities](https://github.com/thomasloven/lovelace-auto-entities) | Frontend | 这张卡很方便快速填写某些域/实体 |
 | [Card Mod](https://github.com/thomasloven/lovelace-card-mod) | Frontend | 这个mod允许在任何卡片甚至堆栈上自定义css |
-| [Button Card](https://github.com/custom-cards/button-card) | Frontend | 这是整个设置过程中使用的按钮，**警告：请务必选择“显示 Beta 版本”并选择最新版本！** |
+| [Button Card](https://github.com/custom-cards/button-card) | Frontend | 这是整个设置过程中使用的按钮，**警告：请务必选择 `Show Beta Versions` 并选择最新版本！** |
 | [State Switch](https://github.com/thomasloven/lovelace-state-switch) | Frontend | 这用于使卡片基于某些条件出现，如条件卡片但更好 |
 | [Card Tools](https://github.com/thomasloven/lovelace-card-tools) | Frontend | 这是运行各种自定义卡所必需的 |
 | [Search Card](https://github.com/postlund/search-card) | Frontend | 一个易于使用的搜索卡 |
