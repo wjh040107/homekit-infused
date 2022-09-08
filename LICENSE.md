@@ -121,38 +121,38 @@ b. __在可能的情况下，许可方在任何情况下均不对您承担任何
 
 c.上述保证免责声明和责任限制应以尽可能接近绝对免责声明和放弃所有责任的方式进行解释。
 
-### Section 6 – Term and Termination.
+### 第 6 节 – 期限和终止。
 
-a. This Public License applies for the term of the Copyright and Similar Rights licensed here. However, if You fail to comply with this Public License, then Your rights under this Public License terminate automatically.
+a.本公共许可适用于此处许可的版权和类似权利的期限。但是，如果您未能遵守本公共许可，则您在本公共许可下的权利将自动终止。
 
-b. Where Your right to use the Licensed Material has terminated under Section 6(a), it reinstates:
+b.如果您使用许可材料的权利已根据第 6(a) 条终止，则恢复：
 
-   1. automatically as of the date the violation is cured, provided it is cured within 30 days of Your discovery of the violation; or
+   1. 自违规行为被纠正之日起自动生效，前提是在您发现违规行为后 30 天内纠正；或者
 
-   2. upon express reinstatement by the Licensor.
+   2. 经许可方明确恢复。
 
-   For the avoidance of doubt, this Section 6(b) does not affect any right the Licensor may have to seek remedies for Your violations of this Public License.
+   为免生疑问，本第 6(b) 条不影响许可方可能必须就您违反本公共许可的行为寻求补救的任何权利。
 
-c. For the avoidance of doubt, the Licensor may also offer the Licensed Material under separate terms or conditions or stop distributing the Licensed Material at any time; however, doing so will not terminate this Public License.
+c.为免生疑问，许可方还可以根据单独的条款或条件提供许可材料或随时停止分发许可材料；但是，这样做不会终止本公共许可证。
 
-d. Sections 1, 5, 6, 7, and 8 survive termination of this Public License.
+d.第 1、5、6、7 和 8 节在本公共许可证终止后继续有效。
 
-### Section 7 – Other Terms and Conditions.
+### 第 7 节 – 其他条款和条件。
 
-a. The Licensor shall not be bound by any additional or different terms or conditions communicated by You unless expressly agreed.
+a.除非明确同意，否则许可方不受您传达的任何附加或不同条款或条件的约束。
 
-b. Any arrangements, understandings, or agreements regarding the Licensed Material not stated herein are separate from and independent of the terms and conditions of this Public License.
+b.此处未说明的有关许可材料的任何安排、理解或协议均独立于本公共许可的条款和条件。
 
-### Section 8 – Interpretation.
+### 第 8 节 – 解释。
 
-a. For the avoidance of doubt, this Public License does not, and shall not be interpreted to, reduce, limit, restrict, or impose conditions on any use of the Licensed Material that could lawfully be made without permission under this Public License.
+a.为免生疑问，本公共许可证不会，也不应被解释为减少、限制、限制或对任何未经本公共许可证许可而合法使用的许可材料的使用施加条件。
 
-b. To the extent possible, if any provision of this Public License is deemed unenforceable, it shall be automatically reformed to the minimum extent necessary to make it enforceable. If the provision cannot be reformed, it shall be severed from this Public License without affecting the enforceability of the remaining terms and conditions.
+b.在可能的情况下，如果本公共许可证的任何条款被视为无法执行，则应自动对其进行改革，使其达到可执行的最低限度。如果不能修改该条款，则应从本公共许可证中分离出来，而不影响其余条款和条件的可执行性。
 
-c. No term or condition of this Public License will be waived and no failure to comply consented to unless expressly agreed to by the Licensor.
+c.除非许可人明确同意，否则不得放弃本公共许可的任何条款或条件，也不得不遵守。
 
-d. Nothing in this Public License constitutes or may be interpreted as a limitation upon, or waiver of, any privileges and immunities that apply to the Licensor or You, including from the legal processes of any jurisdiction or authority.
+d,本公共许可中的任何内容均不构成或可能被解释为对适用于许可方或您的任何特权和豁免的限制或放弃，包括任何司法管辖区或当局的法律程序。
 
-> Creative Commons is not a party to its public licenses. Notwithstanding, Creative Commons may elect to apply one of its public licenses to material it publishes and in those instances will be considered the “Licensor.” Except for the limited purpose of indicating that material is shared under a Creative Commons public license or as otherwise permitted by the Creative Commons policies published at [creativecommons.org/policies](http://creativecommons.org/policies), Creative Commons does not authorize the use of the trademark “Creative Commons” or any other trademark or logo of Creative Commons without its prior written consent including, without limitation, in connection with any unauthorized modifications to any of its public licenses or any other arrangements, understandings, or agreements concerning use of licensed material. For the avoidance of doubt, this paragraph does not form part of the public licenses.
+> Creative Commons 不是其公共许可的一方。尽管如此，知识共享可以选择将其公共许可之一应用于其发布的材料，在这些情况下将被视为“许可人”。除了表明材料是根据知识共享公共许可共享或在 [creativecommons.org/policies](http://creativecommons.org/policies) 上发布的知识共享政策允许的有限目的之外，知识共享确实未经事先书面同意，不得授权使用“Creative Commons”商标或任何其他商标或 Creative Commons 徽标，包括但不限于对其任何公共许可或任何其他安排、理解或有关使用许可材料的协议。为免生疑问，本段不构成公共许可证的一部分。
 >
-> Creative Commons may be contacted at [creativecommons.org](http://creativecommons.org).
+> 可以通过 [creativecommons.org](http://creativecommons.org) 联系知识共享。
