@@ -23,12 +23,12 @@ Homekit Infused 是一个 YAML 风格的仪表板，因此您必须通过 YAML �
 要创建新视图，您必须设置一个对象（在本例中为房间名称）以启动新视图。这是你新观点的第一行。
 
 ```yaml
-# views.yaml (example minimal configuration)
+# views.yaml (示例最小配置)
   living_room:
     icon: mdi:floor-lamp
 ```
 ```yaml
-# views.yaml (example with custom subtitle)
+# views.yaml (带有自定义标签的示例)
   living_room:
     subtitle: Overview
     icon: mdi:floor-lamp
