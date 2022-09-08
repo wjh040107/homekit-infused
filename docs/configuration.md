@@ -46,7 +46,7 @@ Homekit Infused 是一个 YAML 风格的仪表板，因此您必须通过 YAML �
 |----------------------------------|-------------|----------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 'object' | 是 | 无 | 设置视图的名称、路径和标题，这不是实际属性，而是视图的第一行，*注意：这不能包含特殊字符，只能使用小写字符！* |
 | title | 否 | view_name | 设置视图的标题，如果未定义，则将使用视图的名称，不能使用模板作为标题 |
-| subtitle | 否 | 未定义 | 设置字幕文本，这接受 [JS 模板](https://github.com/custom-cards/button-card#javascript-templates)，如果不设置字幕，它将显示默认通知 |
+| subtitle | 否 | 未定义 | 设置字幕文本，这接受 [JS 模板](https://github.com/custom-cards/button-card#javascript-templates)，如果您不设置字幕，它将显示默认通知，以完全隐藏字幕栏 设置 `subtitle: hide` |
 | icon | 否 | mdi:home | 设置导航栏、快捷按钮和字幕的图标，这也接受FA图标，您可以使用 [JS 模板](https://github.com/custom-cards/button-card#javascript-templates)，只要您不将此图标设置为显示在导航栏中 |
 | show_header | 否 | subtitle | 设置为 true 以在此视图上完全隐藏标题 |
 | show_in_favorites | 否 | false | 如果希望此视图自动包含在收藏夹插件中，请将其设置为 `true` |
