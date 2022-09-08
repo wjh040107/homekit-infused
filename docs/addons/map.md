@@ -27,7 +27,6 @@
 | dark_mode | no | false | 是否使用深色或浅色地图 |
 | type | no | undefined | 设置类型可以使视图有条件，此选项将只接受 `conditional` |
 | conditions | no | undefined | 添加实体和条件，这将确定何时显示此插件，例如如果实体 x 已打开 `on` ，则显示此插件参见 [addons](../addons.md) 示例 |
-|实体 |是的 |数组 |在视图中添加您想要的实体，实体必须作为数组列出 |
 | entities | yes | array | 在视图中添加您想要的实体，实体必须作为数组列出 |
 
 ```yaml
