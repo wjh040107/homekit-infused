@@ -1,24 +1,24 @@
 # Homekit Infused 5
 
-## Content
-- [Introduction](index.md)
-- [Installation](installation.md)
-- [Configuration](configuration.md)
-- [Addons](addons.md)
-- [Updates](updates.md)
-- [Issues & Questions](issues.md)
-- [About Me](about.md)
-- [Thanks](thanks.md)
+## 内容
+- [简介](index.md)
+- [安装](installation.md)
+- [配置](configuration.md)
+- [插件](addons.md)
+- [更新](updates.md)
+- [问题和问题](issues.md)
+- [关于我](about.md)
+- [谢谢](thanks.md)
 
-## ISSUES
-If there are any issues please report them via GitHub. When doing so please be thorough in your explanation as the more details the better. Saying things like, "I have an issue, my lights view wont show" is not a good issue explanation as I will still be completely clueless as to why it won't show for you. Issues like these will be closed without an answer!
+## 问题
+如果有任何问题，请通过 GitHub 报告。这样做时，请详细说明，因为越详细越好。说“我有问题，我的灯光视图不会显示”之类的话并不是一个好的问题解释，因为我仍然完全不知道为什么它不会显示给你。此类问题将在没有答案的情况下关闭！
 
-The docs might be incomplete or not completely comprehensible for all. Remember that I am alone in this project, that I am not a programmer and that working on this for so long might get me into forgetting to add something in here. If you find something that is missing or incomplete please notify me so that I can change the documentation.
+文档可能不完整或所有人都无法完全理解。请记住，我是一个人在这个项目中，我不是程序员，而且在这个项目上工作这么长时间可能会让我忘记在这里添加一些东西。如果您发现缺少或不完整的内容，请通知我，以便我更改文档。
 
-#### Known Issues
-  - Sometimes notifications would suddenly stop scrolling, solution is to touch the notification slightly, it will go back to automatic scrolling if you do that. I can't and wont fix this as it is a non-issue.
-  - If your popups do not work, download the button card fix [from here](fixes/)
-  - If you get a `t.setConfig is not a function` error, please re-download `Swipe Card` from HACS!
+#### 已知的问题
+  - 有时通知会突然停止滚动，解决办法是轻轻触摸通知，如果你这样做，它会回到自动滚动。我不能也不会解决这个问题，因为它不是问题。
+  - 如果您的弹出窗口不起作用，请从 [此处](fixes/) 下载按钮卡修复程序
+  - 如果遇到 `t.setConfig is not a function` 错误，请从 HACS 重新下载 `Swipe Card` ！
 
-#### QUESTIONS?
-For questions please visit any of the support links on the [main page](https://github.com/jimz011/homekit-infused) of this repo.
+#### 问题？
+如有问题，请访问此 repo [主页](https://github.com/jimz011/homekit-infused) 上的任何支持链接。
