@@ -134,12 +134,12 @@
 
 如果您设置  `type: graph`, `type: switch`, `type: rgb` 和 `type: color-temp` ，一些按钮会获得一些额外的选项。
 
-| Name | Required | Default | Description |
+| 名称 | 必须 | 默认 | 说明 |
 |----------------------------------|-------------|----------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| popup_style | no | auto | When having `type: switch`, `type: rgb` or `type: color-temp`, you can force the popup to be either `switch` or a `slider` |
+| popup_style | 否 | 汽车 | 当具有 `type: switch` 、`type: rgb` 或 `type: color-temp` 时，您可以强制弹出窗口为 `switch` 或 `slider` |
 ||||
-| line_color | no | red | When having `type: graph` you can set the line_color, this can be a css name or a hex value (e.g. Red or '#FF22FF') |
-| graph_type | no | line | When having `type: graph` you can change the graph_type between `bar` or `line` |
+| line_color | 否 | red | 当有 `type: graph` 时，您可以设置 line_color，这可以是 css 名称或十六进制值 (例如 Red 或 '#FF22FF') |
+| graph_type | 否 | line | 当有 `type: graph` 时，您可以在 `bar` 或 `line` 之间更改 graph_type |
 
 #### Tips
 默认情况下，标签要么是灯的亮度，要么是空的，但是使用按钮卡 JS 模板，您可以拥有像这样的酷标签
