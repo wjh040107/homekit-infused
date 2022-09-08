@@ -136,10 +136,10 @@
 
 | 名称 | 必须 | 默认 | 说明 |
 |----------------------------------|-------------|----------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| popup_style | 否 | auto | 当具有 `type: switch` 、`type: rgb` 或 `type: color-temp` 时，您可以强制弹出窗口为 `switch` 或 `slider` |
+| popup_style弹出式风格 | 否 | auto | 当具有 `type: switch` 、`type: rgb` 或 `type: color-temp` 时，您可以强制弹出窗口为 `switch` 或 `slider` |
 ||||
-| line_color | 否 | red | 当有 `type: graph` 时，您可以设置 line_color，这可以是 css 名称或十六进制值 (例如 Red 或 '#FF22FF') |
-| graph_type | 否 | line | 当有 `type: graph` 时，您可以在 `bar` 或 `line` 之间更改 graph_type |
+| line_color线条颜色 | 否 | red | 当有 `type: graph` 时，您可以设置 line_color，这可以是 css 名称或十六进制值 (例如 Red 或 '#FF22FF') |
+| graph_type图类型 | 否 | line | 当有 `type: graph` 时，您可以在 `bar` 或 `line` 之间更改 graph_type |
 
 #### Tips
 默认情况下，标签要么是灯的亮度，要么是空的，但是使用按钮卡 JS 模板，您可以拥有像这样的酷标签
