@@ -83,13 +83,13 @@ Homekit Infused 是一个 YAML 风格的仪表板，因此您必须通过 YAML �
 
 # Other Config
 
-| Name | Description |
+| 名称 | 说明 |
 |--------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Device Counters](addons/device-counters.md) | Setup entities that count devices for you, this is a recommended step |
-| [Find My](addons/find-my.md) | Setup your find_my page by following this section |
-| [Notifications](addons/notifications.md) | Setup notifications to show in the subtitle of the header |
-| [Splitting the config](splitting-the-config.md) | This will show you how to split up the views.yaml file into multiple separate files and show you how to organize code |
-| [Theming](addons/themes.md) | How to edit the appearance of HKI like a Jedi Master? |
+| [Device Counters设备计数器](addons/device-counters.md) | 为您设置计算设备的实体，这是推荐的步骤 |
+| [Find My查找我的](addons/find-my.md) | 按照此部分设置您的 find_my 页面 |
+| [Notifications通知](addons/notifications.md) | 设置通知以显示在标题的副标题中 |
+| [Splitting the config拆分配置](splitting-the-config.md) | 这将向您展示如何将 views.yaml 文件拆分为多个单独的文件，并向您展示如何组织代码 |
+| [Theming主题](addons/themes.md) | 如何像绝地大师一样编辑HKI的外观？ |
 
 ＃ 提示与技巧
 
