@@ -39,11 +39,11 @@
 
 | 姓名 | 说明 |
 |--------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [air_visual](addons/air-visual.md) | 一张好看的空气质量卡 |
-| [areas](addons/areas.md) | 一张显示您房间信息的卡片 *即将推出* |
-| [battery](addons/battery.md) | 为您提供电池电量概览的插件 |
-| [button](addons/button.md) | 功能强大的按钮卡，可能是您唯一需要的插件 |
-| [calendar](addons/calendar.md) | 默认日历卡 |
+| [air_visual空气质量](addons/air-visual.md) | 一张好看的空气质量卡 |
+| [areas区域](addons/areas.md) | 一张显示您房间信息的卡片 *即将推出* |
+| [battery电池电量](addons/battery.md) | 为您提供电池电量概览的插件 |
+| [button按钮](addons/button.md) | 功能强大的按钮卡，可能是您唯一需要的插件 |
+| [calendar日历](addons/calendar.md) | 默认日历卡 |
 | [camera摄像头](addons/camera.md) | 将您的摄像头添加到视图中的插件 |
 | [custom习惯](addons/custom.md) | 允许任何卡片或多张卡片的终极插件！ |
 | [energy能源](addons/energy.md) | 在仪表盘中重新创建 HA 能源仪表板 |
