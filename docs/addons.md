@@ -130,9 +130,9 @@ Addons can also be conditional depending on a state of an entity!
             - switch.iphone
 ```
 
-### Extra Information
+### 额外的信息
 
-What happened to the `simple_weather`, `devices`, `rooms`, `sun_card`, `find_my`, `layout`, `columns`, `mini-media-player`, `search` `vacuum` and `graph` addons that were present in HKI 4?
+发现了 `simple_weather`, `devices`, `rooms`, `sun_card`, `find_my`, `layout`, `columns`, `mini-media-player`, `search` `vacuum` and `graph` 这些插件存在于 HKI 4吗？
 
 那么推理可以在下面找到：
 - `sun_card`、`mini-media-player` 和 `graph` 是对模板来说太大或不需要添加的插件，您仍然可以将它们与 `custom:` 插件一起使用，这允许它们的所有选项 被解锁并提供更多的自定义。
