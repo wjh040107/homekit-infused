@@ -18,16 +18,17 @@
 
 ### 视图和插件配置
 
-| Name | Required | Default | Description |
+| 名称 | 必须 | 默认 | 说明 |
 |----------------------------------|-------------|----------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| title | no | undefined | Set the title of the stack, ommitting this line will or setting `title: hide` will hide the title |
-| default_zoom | no | default | Sets the default zoom, around 15 is probably what you will want for your setup |
-| aspect_ratio | no | none | Sets an aspect ratio for your map |
-| [view_layout](layout.md#view-layout) | no | undefined | This is best used in conjunction with the [layout](layout.md#view-layout) addon, but can also be used to control whether to show this stack on different screen sizes. |
-| dark_mode | no | false | Whether to use a dark or light map |
-| type | no | undefined | Setting a type can make the stack condtional, this option will ONLY accept `conditional` |
-| conditions | no | undefined | Add entities and conditions, this will determine when this addon will be shown, e.g. if entity x is turned `on`, then show this addon (see [addons](../addons.md) for examples |
-| entities | yes | array | Add the entities you want in your stack, entities must be listed as an array |
+| title | no | undefined | 设置视图的标题，省略此行或设置 `title: hide` 将隐藏标题 |
+| default_zoom | no | default | 设置默认缩放，大约 15 可能是您设置所需的 |
+| aspect_ratio | no | none | 为您的地图设置纵横比 |
+| [view_layout](layout.md#view-layout) | no | undefined | 这最好与 [layout](layout.md#view-layout) 插件一起使用，但也可以用于控制是否在不同的屏幕尺寸上显示此视图。 |
+| dark_mode | no | false | 是否使用深色或浅色地图 |
+| type | no | undefined | 设置类型可以使视图有条件，此选项将只接受 `conditional` |
+| conditions | no | undefined | 添加实体和条件，这将确定何时显示此插件，例如如果实体 x 已打开 `on` ，则显示此插件参见 [addons](../addons.md) 示例 |
+|实体 |是的 |数组 |在视图中添加您想要的实体，实体必须作为数组列出 |
+| entities | yes | array | 在视图中添加您想要的实体，实体必须作为数组列出 |
 
 ```yaml
 # views.yaml (例子)
