@@ -42,28 +42,28 @@ Homekit Infused 是一个 YAML 风格的仪表板，因此您必须通过 YAML �
 
 这是为您提供全新视图的最低要求，但是如果没有任何其他代码，该视图将是空的。 Homekit Infused 能够为您填充视图、使用自定义用户代码或同时使用两者。 以下是您可以添加到视图中的所有视图选项，以完全根据您的喜好自定义每个视图。
 
-| Name | Required | Default | Description |
+| 名称 | 必需 | 默认 | 说明 |
 |----------------------------------|-------------|----------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 'object' | yes | none | Sets the name, path and title of the view, this is not an actual property but the first line of your view, *NOTE: This can NOT contain special characters, use lowercase characters only!* |
-| title | no | view_name | Set the title of the view, if undefined it will use the name of the view instead, you can NOT use templates for the title! |
-| subtitle | no | undefined | Set the subtitle text, this accepts [JS templates](https://github.com/custom-cards/button-card#javascript-templates), if you don't set a subtitle it will show the default notifications instead |
-| icon | no | mdi:home | Set the icon for the navigation_bar, shortcut buttons and subtitle, this also accepts FA icons, you can use [JS templates](https://github.com/custom-cards/button-card#javascript-templates) as long as you don't set this icon to show in the nav_bar |
-| show_subtitle | no | subtitle | Set to show the header subtitle to true or false |
-| show_in_favorites | no | false | Set to `true` if you want this view to be auto included in the favorites addon |
-| show_in_menu | no | undefined | This forces a view to be shown in the menu addon, this is useful when using the `menu:` or `view_selector:` addon |
-| button_label | no | no label | Set the button label text, this accepts [JS templates](https://github.com/custom-cards/button-card#javascript-templates) |
-| button_badge | no | undefined | This will set a bagde for the menu and favorites button, it will always show the state of an entered entity, you can use any entity_id (e.g. `sensor.current_temperature`) |
-| show_in_navbar | no | false | Set to `true` if you want this view to be visible in the navigation_bar, this is not the same as the menu! |
-| visible | no | undefined | This will show the nav_bar icon only for certain users, this only reflects if `show_in_navbar` is `true`, this MUST be defined as a list! Check out the [Official Documentation](https://www.home-assistant.io/lovelace/views/#visible) for more information. NOTE: The URL will still be accessible for any user! |
-| [addons](addons.md) | no | undefined | Add an addon to your view, refer to the [Addons](addons.md) section for documentation |
+| 'object' | yes | none | 设置视图的名称、路径和标题，这不是实际属性，而是视图的第一行，*注意：这不能包含特殊字符，只能使用小写字符！* |
+| title | no | view_name | 设置视图的标题，如果未定义，则将使用视图的名称，不能使用模板作为标题 |
+| subtitle | no | undefined | 设置字幕文本，这接受[JS模板](https://github.com/custom-cards/button-card#javascript-模板），如果不设置字幕，它将显示默认通知 |
+| icon | no | mdi:home | 设置导航栏、快捷按钮和字幕的图标，这也接受FA图标，您可以使用[JS模板](https://github.com/custom-cards/button-card#javascript-模板），只要您不将此图标设置为显示在导航栏中 |
+| show_subtitle | no | subtitle | 设置为将标题字幕显示为true或false |
+| show_in_favorites | no | false | 如果希望此视图自动包含在收藏夹插件中，请将其设置为“true” |
+| show_in_menu | no | undefined | 这将强制在菜单插件中显示视图，这在使用“菜单：”或“视图选择器：”插件时非常有用 |
+| button_label | no | no label | 设置按钮标签文本，这接受[JS模板](https://github.com/custom-cards/button-card#javascript-模板） |
+| button_badge | no | undefined | 这将为菜单和收藏夹按钮设置一个bagde，它将始终显示输入实体的状态，您可以使用任何实体_id（例如“传感器当前温度”） |
+| show_in_navbar | no | false | “设置为true”如果您希望此视图在导航栏中可见，这与菜单不同 |
+| visible | no | undefined | 这将仅为某些用户显示导航栏图标，这仅反映“show_in_navbar”为“true”时，这必须定义为列表！查看[官方文件](https://www.home-assistant.io/lovelace/views/#visible)更多信息。注意：任何用户仍然可以访问URL |
+| [addons](addons.md) | no | undefined | 若要在视图中添加一个插件，请参阅[addons]（Addions.md）部分以获取文档 |
 | [layout](addons/layout.md) | no | undefined | Change your views layout, refer to the [Layout](addons/layout.md) section for documentation |
-| [view_selector](addons/view-selector.md) | no | undefined | Add a view_selector to the top of your view, refer to the [View Selector](addons/view-selector.md) section for documentation |
-| [custom_legacy](addons/custom-legacy.md) | no | undefined | Disable all addons and go full YAML style on your views, refer to the [Custom Legacy](addons/custom-legacy.md) section for documentation |
+| [view_selector](addons/view-selector.md) | no | undefined | 将view_selector添加到视图顶部，请参阅[view selector]（addons/view Selecter.md）部分以获取文档 |
+| [custom_legacy](addons/custom-legacy.md) | no | undefined | 禁用所有插件并在视图上使用完整的YAML样式，有关文档，请参阅[custom-legacy]（addons/custom legage.md）部分 |
 
 ```yaml
 # views.yaml (例子)
   kitchen:
-    subtitle: My Kitchen
+    subtitle: 我的厨房
     button_badge: sensor.kitchen_temp
     icon: mdi:fridge
     show_in_navbar: true
