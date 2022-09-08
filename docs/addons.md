@@ -53,13 +53,13 @@
 | [glance预览](addons/glance.md) | 一张好用的预览卡 |
 | [google TTS](addons/google.md) | Google Home TTS 卡 |
 | [iframe框架](addons/iframe.md) | 方便的框架卡，可用于视图 |
-| [history历史](addons/history.md) | 这是核心 HA 图形卡，您可以将其用作 HKI 中图形插件的替代品 |
+| [history历史](addons/history.md) | 这是 HA 图形卡，您可以将其用作 HKI 中图形插件的替代品 |
 | [logbook日志记录](addons/logbook.md) | 使用日志记录您的实体 |
 | [map地图](addons/map.md) | 跟踪您的实体的地图 |
 | [media_player媒体播放器](addons/media-player.md) | 媒体播放器插件 |
 | [menu菜单](addons/menu.md) | 在...菜单以外的其他视图上显示菜单！ |
 | [meteoalarm气象](addons/meteoalarm.md) | 一张向您展示天气警报的好卡片 |
-| [picture_elements图片元素卡](addons/picture-elements.md) | HKI的核心图片元素卡 |
+| [picture_elements图片元素卡](addons/picture-elements.md) | HKI的图片元素卡 |
 | [plant_status监控植物](addons/plant-status.md) | 监控您的植物 |
 | [plex插件](addons/plex.md) | 一个非常漂亮的Plex插件 |
 | [remote_control遥控器](addons/remote-control.md) | 一个漂亮的 Nvidia Shield TV/Apple TV 遥控器 |
@@ -67,7 +67,7 @@
 | [statistics统计](addons/statistics.md) | 创建漂亮的统计图表 |
 | [upcoming_media媒体预告](addons/upcoming-media.md) | 显示来自您的sonarr/radarr的即将到来和最近添加的媒体 |
 | [thermostat恒温器](addons/thermostat.md) | 恒温器按钮供您查看 |
-| [weather天气](addons/weather.md) | HKI的天气插件，选择核心或简单天气 |
+| [weather天气](addons/weather.md) | HKI的天气插件，选择内置或简单天气 |
 | [xbox控制器卡](addons/xbox.md) | Xbox 控制器卡 |
 
 ＃＃＃ 高级用法
