@@ -24,7 +24,7 @@ Homekit Infused 不会替换您现有的任何仪表板，因此您可以放心�
 - 一个可自定义的导航栏，也可以设置在屏幕底部。
 - 一个自动创建的菜单。
 - 只需定义视图名称、标题和图标，即可超级快速地创建新视图。只是这些行将创建一个新视图、一个菜单条目、一个导航栏按钮和图标以及一个标题，很酷吧？
-- 2两个完全可定制的主题，您可以在其中实时更改 Homekit Infused 的整体外观！
+- 两个完全可定制的主题，您可以在其中实时更改 Homekit Infused 的整体外观！
 - 通过创建脚本与 HKI 社区分享您自己创建的主题，最好的主题将添加到未来的 HKI 版本中！
 - 许多预配置的插件，您可以添加到您的任何视图中，默认情况下，所有插件都经过预配置以快速创建仪表板。
 - 自定义插件，允许您使用任何可用的核心或社区创建卡的家庭助理卡。
@@ -53,10 +53,10 @@ Homekit Infused 不会替换您现有的任何仪表板，因此您可以放心�
 - 32GB DDR3 1600MHz RAM
 - 9x HDD (6x 3TB, 2x 2TB, 1x 1TB)
 - 2x SSD (1x 120GB, 1x 480GB)
-- 使用的管理程序: Unraid
-- Docker: 是
+- Hypervisor used: Unraid
+- Docker: Yes
 - VM's: 1 (Ubuntu)
-- Docker 容器: 70+
+- Docker Containers: 70+
 - Home Assistant: Home Assistant Core 在Unraid的docker上运行
 
 #### 手机和可穿戴设备
