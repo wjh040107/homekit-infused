@@ -16,11 +16,11 @@
 
 ### HACS 要求
 
-| Name | Type  | Description |
+| 名称 | 类型  | 说明 |
 |----------------------------------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Light Popup Card](https://github.com/DBuit/light-popup-card) | Frontend | This is a popup that opens when holding/double tapping buttons, you need to add this repository MANUALLY in HACS |
-| [More Info Card](https://github.com/thomasloven/lovelace-more-info-card) | Frontend | This is the card that shows a standard HA styled color wheel in conjunction with the light popup card |
-| [Mini Graph Card](https://github.com/kalkih/mini-graph-card) | Frontend | Mini Graph Card gives the possibility to create more advanced graphs! |
+| [Light Popup Card灯光弹出卡](https://github.com/DBuit/light-popup-card) | 前端 | 这是按住/双击按钮时打开的弹出窗口，您需要在 HACS | 中手动添加此存储库 |
+| [More Info Card更多信息卡](https://github.com/thomasloven/lovelace-more-info-card) | 前端 | 这是一张显示标准 HA 风格色轮和灯光弹出卡的卡片 |
+| [Mini Graph Card迷你图卡](https://github.com/kalkih/mini-graph-card) | 前端 | 迷你图形卡提供了创建更高级图形的可能性！ |
 
 **注意：** 这个插件只是一个预配置的 [custom:button-card](https://github.com/custom-cards/button-card) 模板。 您可以使用该卡中 99.9% 的可用选项，但是 HKI 有一些在该卡中找不到的额外选项/配置。
 
