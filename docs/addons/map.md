@@ -18,16 +18,14 @@
 
 ### 视图和插件配置
 
-| 名称 | 必须 | 默认 | 说明 |
-|----------------------------------|-------------|----------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| title | no | undefined | 设置视图的标题，省略此行或设置 `title: hide` 将隐藏标题 |
-| default_zoom | no | default | 设置默认缩放，大约 15 可能是您设置所需的 |
-| aspect_ratio | no | none | 为您的地图设置纵横比 |
-| [view_layout](layout.md#view-layout) | no | undefined | 这最好与 [layout](layout.md#view-layout) 插件一起使用，但也可以用于控制是否在不同的屏幕尺寸上显示此视图。 |
-| dark_mode | no | false | 是否使用深色或浅色地图 |
-| type | no | undefined | 设置类型可以使视图有条件，此选项将只接受 `conditional` |
-| conditions | no | undefined | 添加实体和条件，这将确定何时显示此插件，例如如果实体 x 已打开 `on` ，则显示此插件参见 [addons](../addons.md) 示例 |
-| entities | yes | array | 在视图中添加您想要的实体，实体必须作为数组列出 |
+| title | 否 | 未定义 | 设置视图的标题，省略此行或设置 `title: hide` 将隐藏标题 |
+| default_zoom | 否 | 默认 | 设置默认缩放，大约 15 可能是您设置所需的 |
+| aspect_ratio | 否 | 否 | 为您的地图设置纵横比 |
+| [view_layout](layout.md#view-layout) | 否 | 未定义 | 这最好与 [layout](layout.md#view-layout) 插件一起使用，但也可以用于控制是否在不同的屏幕尺寸上显示此视图。 |
+| dark_mode | 否 | false | 是否使用深色或浅色地图 |
+| type | 否 | 未定义 | 设置类型可以使视图有条件，此选项将只接受 `conditional` |
+| conditions | 否 | 未定义 | 添加实体和条件，这将确定何时显示此插件，例如如果实体 x 已打开 `on` ，则显示此插件参见 [addons](../addons.md) 示例 |
+| entities | 是 | array数组 | 在视图中添加您想要的实体，实体必须作为数组列出 |
 
 ```yaml
 # views.yaml (例子)
