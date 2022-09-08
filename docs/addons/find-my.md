@@ -18,11 +18,11 @@
 
 您可以使用以下任何选项来修改您的插件。 至少选择一个类别才能正常运行！
 
-| Name | Required | Default | Description |
+| 名称 | 必须 | 默认 | 说明 |
 |----------------------------------|-------------|----------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| persons | no | undefined | Set the persons you want to show in find_my |
-| devices | no | undefined | Set the devices you want to show in find_my |
-| vehicles | no | undefined | Set the vehicles you want to show in find_my |
+| persons | 否 | 未定义 | 在 find_my 中置要显示的人 |
+| devices | 否 | 未定义 | 在 find_my 中设置要显示的设备 |
+| vehicles | 否 | 未定义 | 在 find_my 中设置要显示的车辆 |
 
 #### 查找我的额外选项
 您可以将以下任何选项传递给您的实体以自定义外观。 如果您没有设置 icon 或 picture_entity ，它将尝试从 customize.yaml 中获取它们。
