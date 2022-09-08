@@ -17,33 +17,32 @@
 
 ## Homekit Infused 5 (Lovelace) by Jimz011
 
-This is Homekit Infused 5, a complete lovelace dashboard solution for Home Assistant. 
-In a nutshell Homekit Infused will turn your Home Assistant dashboard into a Homekit styled variant with a beautiful header which gives a more tablet/phone app style to your dashboard.
+这是 Homekit Infused 5，一个完整的用于 Home Assistant 的 lovelace 仪表板解决方案。 简而言之，Homekit Infused 会将您的 Home Assistant 仪表板变成带有漂亮标题的 Homekit 样式变体，从而为您的仪表板提供更多平板电脑/手机应用程序样式。
 
-Note: Homekit Infused is a YAML style dashboard, this means that a basic understanding of YAML is advised. However if you follow the documentation/video tutorials you should be able to create a dashboard nonetheless. You should be able to create a beautiful dashboard without too much effort!
+注意：Homekit Infused 是一个 YAML 风格的仪表板，这意味着建议您对 YAML 有一个基本的了解。但是，如果您遵循文档/视频教程，您仍然应该能够创建仪表板。您应该能够毫不费力地创建一个漂亮的仪表板！
 
-Homekit Infused does NOT replace any of your existing dashboards so you can rest assured that installing HKI will not destroy any of your existing dashboards. You can use Homekit Infused in conjunction with other dashboards.
+Homekit Infused 不会替换您现有的任何仪表板，因此您可以放心，安装 HKI 不会破坏您现有的任何仪表板。您可以将 Homekit Infused 与其他仪表板结合使用。
 
-In short Homekit Infused 5 is all of the below and much much more!
-- Having trouble convincing your partner to use HA? HKI has a really amazing WAF!
-- A beautiful header with notifications that is customizable per view and is added to each view for you automatically.
-- A customizable navigation bar which can also be set at the bottom of the screen.
-- An automatically created menu.
-- Create new views super fast by only defining a view name, title and icon. Just these lines will create a new view, a menu entry, a navigation bar button and icon and a header title, cool huh?
-- 2 Fully customizable themes where you can change the entire look and feel of Homekit Infused in REAL-TIME!
-- Share your own created themes with the HKI community by creating scripts, the best themes will be added to future HKI releases!
-- A LOT of preconfigured addons which you can add to any of your views, by default all addons are preconfigured for fast dashboard creation.
-- Custom addon which allows you to use ANY home assistant card available either core or community created cards.
-- A fully customizable per user profile menu.
-- A fully customizable Alarm panel.
-- Known to be one of the best documented dashboards around, HKI 5 is no different and even better!
-- Experienced users can go fully custom YAML on a per view basis (this is particularly useful for HKI 3 and 4 users that want to migrate)
-- Easy updates, copy/replace 2 folders on each update!
-- Blazing fast frontend, even with large setups (watch my video's to see it in action).
-- Over 200+ new settings compared to HKI 4!
-- And MUCH MUCH I mean MUCH more!
+简而言之，Homekit Infused 5 包含以下所有内容以及更多内容！
+- 难以说服您的伴侣使用 HA？ HKI有一个非常棒的WAF！
+- 带有通知的漂亮标题，可按视图自定义，并自动为您添加到每个视图中。
+- 一个可自定义的导航栏，也可以设置在屏幕底部。
+- 一个自动创建的菜单。
+- 只需定义视图名称、标题和图标，即可超级快速地创建新视图。只是这些行将创建一个新视图、一个菜单条目、一个导航栏按钮和图标以及一个标题，很酷吧？
+- 2 个完全可定制的主题，您可以在其中实时更改 Homekit Infused 的整体外观！
+- 通过创建脚本与 HKI 社区分享您自己创建的主题，最好的主题将添加到未来的 HKI 版本中！
+- 许多预配置的插件，您可以添加到您的任何视图中，默认情况下，所有插件都经过预配置以快速创建仪表板。
+- 自定义插件，允许您使用任何可用的核心或社区创建卡的家庭助理卡。
+- 一个完全可定制的每个用户配置文件菜单。
+- 一个完全可定制的警报面板。
+- 众所周知，HKI 5 是记录最好的仪表板之一，也没有什么不同，甚至更好！
+- 有经验的用户可以在每个视图的基础上完全自定义 YAML（这对于想要迁移的 HKI 3 和 4 用户特别有用）
+- 轻松更新，每次更新复制/替换 2 个文件夹！
+- 超快的前端，即使是大型设置（观看我的视频以查看它的实际效果）。
+- 与 HKI 4 相比，超过 200 种新设置！
+- 还有很多我的意思是更多！
 
-*Note: None of the custom-cards used in this project are made by me and every custom-card used has a reference to their original creators as well as the original link to their repo's. All contributors/donators and people that gave me the inspiration are mentioned in the docs on the last page!
+*注意：本项目中使用的自定义卡片都不是我制作的，并且使用的每张自定义卡片都引用了其原始创建者以及指向其 repo 的原始链接。 最后一页的文档中提到了所有贡献者/捐赠者和给我灵感的人！
 
 ### Quick Links
 #### [Click here](https://jimz011.github.io/homekit-infused/) for the documentation
