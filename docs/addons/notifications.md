@@ -1,24 +1,24 @@
 # Homekit Infused 5
 
-## Content
-- [Introduction](../index.md)
-- [Installation](../installation.md)
-- [Configuration](../configuration.md)
-- [Addons](../addons.md)
-- [Updates](../updates.md)
-- [Issues & Questions](../issues.md)
-- [About Me](../about.md)
-- [Thanks](../thanks.md)
+## 内容
+- [简介](index.md)
+- [安装](installation.md)
+- [配置](configuration.md)
+- [插件](addons.md)
+- [更新](updates.md)
+- [问题和疑问](issues.md)
+- [关于我](about.md)
+- [谢谢](thanks.md)
 
-## Notifications
+## 通知
 
-This card will show you live notifications in the subtitle part of the header. If you have multiple notifications, they will automatically slide and show you each notification for a few seconds. You could also swipe through them.
+此卡片将在标题的副标题部分向您显示实时通知。 如果您有多个通知，它们会自动滑动并显示每个通知几秒钟。 您也可以浏览它们。
 
-- To create a notification you will have to open the following file `/homekit-infused/user/notifications.yaml`
-- You will first need to create a conditional card and then put the notification card inside of it. The state of the defined condition will decide to show the notification or not. See examples below.
+- 要创建通知，您必须打开以下文件 `/homekit-infused/user/notifications.yaml`
+- 您首先需要创建一个条件卡，然后将通知卡放入其中。 定义条件的状态将决定是否显示通知。 请参阅下面的示例。
 
 ```yaml
-# notifications.yaml (example)
+# notifications.yaml (例子)
 - type: conditional
   conditions:
     - entity: binary_sensor.smoke_sensor
@@ -27,11 +27,11 @@ This card will show you live notifications in the subtitle part of the header. I
     !include
     - '../hki-base/templates/header/subtitle-notification-template.yaml'
     - icon: mdi:smoke-detector
-      name: There is smoke detected in the Kitchen!!
+      name: 厨房里有烟！！
       spin: true
 ```
 
-### Notification Extra Options
+### 通知额外选项
 
 | Properties | Required | Default | Description |
 |----------------------------------|-------------|----------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -43,10 +43,10 @@ This card will show you live notifications in the subtitle part of the header. I
 | [double_tap_action](https://github.com/custom-cards/button-card#Action) | no | undefined | Set a specific double_tap_action for this notification see [here](https://github.com/custom-cards/button-card#Action) for available options |
 
 ```yaml
-# notifications.yaml (example multiple notifications)
+# notifications.yaml (多个通知示例)
 
-# Smoke Detector
-- type: conditional
+# 烟雾探测器
+- type: conditional        # 有条件的
   conditions:
     - entity: binary_sensor.smoke_sensor
       state: "on"
@@ -54,11 +54,11 @@ This card will show you live notifications in the subtitle part of the header. I
     !include
     - '../hki-base/templates/header/subtitle-notification-template.yaml'
     - icon: mdi:smoke-detector
-      name: There is smoke detected in the Kitchen!!
+      name: 厨房里有烟！！
       spin: true
 
-# Front Door
-- type: conditional
+# 前门
+- type: conditional        # 有条件的
   conditions:
     - entity: binary_sensor.front_door
       state: "on"
@@ -66,14 +66,14 @@ This card will show you live notifications in the subtitle part of the header. I
     !include
     - '../hki-base/templates/header/subtitle-notification-template.yaml'
     - icon: mdi:door
-      name: The frontdoor is open!!
+      name: 前门打开了！！
 ```
 
 ```yaml
-# example multiple notifications with an all clear notification
+# 带有全部清晰通知的多个通知示例
 
-# All Clear
-- type: conditional
+# 一切正常
+- type: conditional        # 有条件的
   conditions:
     - entity: binary_sensor.smoke_sensor
       state: "off"
@@ -83,10 +83,10 @@ This card will show you live notifications in the subtitle part of the header. I
     !include
     - '../hki-base/templates/header/subtitle-notification-template.yaml'
     - icon: mdi:check-box-outline
-      name: All clear, no notifications.
+      name: 一切正常，没有通知。
       
-# Smoke Detector
-- type: conditional
+# 烟雾探测器
+- type: conditional        # 有条件的
   conditions:
     - entity: binary_sensor.smoke_sensor
       state: "on"
@@ -94,11 +94,11 @@ This card will show you live notifications in the subtitle part of the header. I
     !include
     - '../hki-base/templates/header/subtitle-notification-template.yaml'
     - icon: mdi:smoke-detector
-      name: There is smoke detected in the Kitchen!!
+      name: 厨房里检测到烟雾！！
       spin: true
 
 # Front Door
-- type: conditional
+- type: conditional        # 有条件的
   conditions:
     - entity: binary_sensor.front_door
       state: "on"
@@ -106,11 +106,11 @@ This card will show you live notifications in the subtitle part of the header. I
     !include
     - '../hki-base/templates/header/subtitle-notification-template.yaml'
     - icon: mdi:door
-      name: The frontdoor is open!!
+      name: 前门是开着的！！
 ```
 
-### Extra Information
-For more examples you can check out my personal notifications.yaml file [here](https://github.com/jimz011/homekit-infused/blob/5.x.x-personal/hki-user/notifications.yaml)
+### 额外信息
+有关更多示例，请查看我的 notifications.yaml 文件 [这里](https://github.com/jimz011/homekit-infused/blob/5.x.x-personal/hki-user/notifications.yaml)
 
 ### Images:
 
