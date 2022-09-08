@@ -70,27 +70,27 @@
 | [weather](addons/weather.md) | HKI的天气插件，选择核心或简单天气 |
 | [xbox](addons/xbox.md) | Xbox 控制器卡 |
 
-＃＃＃ 先进的
+＃＃＃ 高级
 
 插件可以定义多次，这在您想要一个顶部有按钮堆栈的视图、中间有一个地图、底部有另一个按钮堆栈的视图时特别有用。
 
 要在单个视图中定义相同类型的额外插件，您必须在插件名称中添加后缀，后缀名称无关紧要，只要您使用一个即可。 `addon_whatever：`
 
 ```yaml
-# views.yaml (example of defining multiple addons of the same type)
+# views.yaml (定义多个相同类型的插件的示例)
   my_view:
     title: Location
     addons:
       button:
-        - title: My Quicktoggles
+        - title: 我的快速切换
           entities:
             - switch.phone
       button_2:
-        - title: My second quicktoggles
+        - title: 我的第二个快速切换
           entities:
             - switch.iphone
       button_whatever:
-        - title: Another button addon
+        - title: 另一个按钮插件
           entities:
             - switch.galaxy
 ```
@@ -98,20 +98,20 @@
 插件也可以是有条件的，具体取决于实体的状态！
 
 ```yaml
-# views.yaml (example of defining multiple addons of the same type)
+# views.yaml (定义多个相同类型的插件的示例)
   my_view:
-    title: Location
+    title: 地点
     type: conditional
     addons:
       button:
-        - title: This will only show when Jimmy is home
+        - title: 这只会在吉米在家时显示
           conditions:
             - entity: person.jimmy
               state: "home"
           entities:
             - switch.phone
       button_2:
-        - title: This will only show when Jimmy AND Stephanie are home
+        - title: 这只会在 Jimmy 和 Stephanie 在家时显示
           conditions:
             - entity: person.jimmy
               state: "home"
@@ -120,7 +120,7 @@
           entities:
             - switch.iphone
       button_3:
-        - title: This will only show when Jimmy is NOT home AND Stephanie IS home
+        - title: 这只会在 Jimmy 不在家且 Stephanie 在家时显示
           conditions:
             - entity: person.jimmy
               state_not: "home"
