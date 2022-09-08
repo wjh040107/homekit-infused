@@ -35,12 +35,12 @@
 
 | 属性 | 必须 | 默认 | 说明 |
 |----------------------------------|-------------|----------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| icon | yes | none | 设置一个图标来显示通知，这接受 [JS 模板](https://github.com/custom-cards/button-card#javascript-templates) |
-| name | yes | none | 设置通知，接受 [JS 模板](https://github.com/custom-cards/button-card#javascript-templates) |
-| spin | no | false | 设置显示通知时图标是否应该旋转 |
-| [tap_action](https://github.com/custom-cards/button-card#Action) | no | undefined | 为此通知设置特定的 tap_action ，请参阅 [此处](https://github.com/custom-cards/button-card#Action) 了解可用选项 |
-| [hold_action](https://github.com/custom-cards/button-card#Action) | no | undefined | 为此通知设置特定的 hold_action ，请参阅[此处](https://github.com/custom-cards/button-card#Action) 了解可用选项 |
-| [double_tap_action](https://github.com/custom-cards/button-card#Action) | no | undefined | 为此通知设置特定的 double_tap_action ，请参阅 [此处](https://github.com/custom-cards/button-card#Action) 了解可用选项 |
+| icon | 是 | 无 | 设置一个图标来显示通知，这接受 [JS 模板](https://github.com/custom-cards/button-card#javascript-templates) |
+| name | 是 | 无 | 设置通知，接受 [JS 模板](https://github.com/custom-cards/button-card#javascript-templates) |
+| spin | 否 | false | 设置显示通知时图标是否应该旋转 |
+| [tap_action](https://github.com/custom-cards/button-card#Action) | 否 | 未定义 | 为此通知设置特定的 tap_action ，请参阅 [此处](https://github.com/custom-cards/button-card#Action) 了解可用选项 |
+| [hold_action](https://github.com/custom-cards/button-card#Action) | 否 | 未定义 | 为此通知设置特定的 hold_action ，请参阅[此处](https://github.com/custom-cards/button-card#Action) 了解可用选项 |
+| [double_tap_action](https://github.com/custom-cards/button-card#Action) | 否 | 未定义 | 为此通知设置特定的 double_tap_action ，请参阅 [此处](https://github.com/custom-cards/button-card#Action) 了解可用选项 |
 
 ```yaml
 # notifications.yaml (多个通知示例)
