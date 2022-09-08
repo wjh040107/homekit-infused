@@ -37,44 +37,44 @@
 ```
 # Addons
 
-| Name | Description |
+| 姓名 | 说明 |
 |--------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [air_visual](addons/air-visual.md) | A nice looking air quality card |
-| [areas](addons/areas.md) | A card that shows you room information *Coming Soon* |
-| [battery](addons/battery.md) | An addon to give your view a battery levels overview |
-| [button](addons/button.md) | The all powerful button-card, probably the only addon you'll ever need |
-| [calendar](addons/calendar.md) | The default Calendar card |
-| [camera](addons/camera.md) | An addon to add your camera's to a view |
-| [custom](addons/custom.md) | The ultimate addon that allows any card or multitude of cards! |
-| [energy](addons/energy.md) | Recreate the HA energy dashboard in lovelace |
-| [entities](addons/entities.md) | An easy to use entities card |
-| [favorites](addons/favorites.md) | Show a stack with shortcuts to your favorited views |
-| [gauge](addons/gauge.md) | Show simple gauges for your entities |
-| [glance](addons/glance.md) | An easy to use glance card |
-| [google](addons/google.md) | A Google Home TTS card |
-| [iframe](addons/iframe.md) | A handy iFrame card that you can use on your views |
-| [history](addons/history.md) | This is the core HA graph card which you can use as an alternative to the graphs addon in HKI |
-| [logbook](addons/logbook.md) | Keep track of your entities with a logbook |
-| [map](addons/map.md) | A map to track your entities |
-| [media_player](addons/media-player.md) | A Media Player addon |
-| [menu](addons/menu.md) | Show the menu on other views than.... menu! |
-| [meteoalarm](addons/meteoalarm.md) | A nice card to show you your weather alerts |
-| [picture_elements](addons/picture-elements.md) | The core picture elements card for HKI |
-| [plant_status](addons/plant-status.md) | Monitor your plants |
-| [plex](addons/plex.md) | A very beautiful Plex addon |
-| [remote_control](addons/remote-control.md) | A beautiful remote control for Nvidia Shield TV/Apple TV |
-| [sensor](addons/sensor.md) | A core sensor card |
-| [statistics](addons/statistics.md) | Create beautiful statistics graphs |
-| [upcoming_media](addons/upcoming-media.md) | Show your upcoming and recently added media from your sonarr/radarr |
-| [thermostat](addons/thermostat.md) | Thermostat buttons for your view |
-| [weather](addons/weather.md) | The weather addon for HKI, choose between core or simple-weather |
-| [xbox](addons/xbox.md) | An Xbox controller card |
+| [air_visual](addons/air-visual.md) | 一张好看的空气质量卡 |
+| [areas](addons/areas.md) | 一张显示您房间信息的卡片 *即将推出* |
+| [battery](addons/battery.md) | 为您提供电池电量概览的插件 |
+| [button](addons/button.md) | 功能强大的按钮卡，可能是您唯一需要的插件 |
+| [calendar](addons/calendar.md) | 默认日历卡 |
+| [camera](addons/camera.md) | 将您的相机添加到视图中的插件 |
+| [custom](addons/custom.md) | 允许任何卡片或多张卡片的终极插件！ |
+| [energy](addons/energy.md) | 在 lovelace 中重新创建 HA 能源仪表板 |
+| [entities](addons/entities.md) | 一张好用的实体卡 |
+| [favorites](addons/favorites.md) | 示带有您收藏视图的快捷方式的堆栈 |
+| [gauge](addons/gauge.md) | 为您的实体显示简单的仪表 |
+| [预览](addons/glance.md) | 一张好用的预览卡 |
+| [google](addons/google.md) | Google Home TTS 卡 |
+| [iframe](addons/iframe.md) | 方便的 iFrame 卡，可用于视图 |
+| [history](addons/history.md) | 这是核心 HA 图形卡，您可以将其用作 HKI 中图形插件的替代品 |
+| [logbook](addons/logbook.md) | 使用日志跟踪您的实体 |
+| [map](addons/map.md) | 跟踪您的实体的地图 |
+| [media_player](addons/media-player.md) | 媒体播放器插件 |
+| [menu](addons/menu.md) | 在...菜单以外的其他视图上显示菜单！ |
+| [meteoalarm](addons/meteoalarm.md) | 一张向您展示天气警报的好卡片 |
+| [picture_elements](addons/picture-elements.md) | HKI的核心图片元素卡 |
+| [plant_status](addons/plant-status.md) | 监控您的植物 |
+| [plex](addons/plex.md) | 一个非常漂亮的 Plex 插件 |
+| [remote_control](addons/remote-control.md) | 一个漂亮的 Nvidia Shield TV/Apple TV 遥控器 |
+| [sensor](addons/sensor.md) | 核心感应卡 |
+| [statistics](addons/statistics.md) | 创建漂亮的统计图表 |
+| [upcoming_media](addons/upcoming-media.md) | 显示来自您的声纳/雷达的即将到来和最近添加的媒体 |
+| [thermostat](addons/thermostat.md) | 恒温器按钮供您查看 |
+| [weather](addons/weather.md) | HKI的天气插件，选择核心或简单天气 |
+| [xbox](addons/xbox.md) | Xbox 控制器卡 |
 
-### Advanced
+＃＃＃ 先进的
 
-Addons can be defined multiple times, this is particularly useful when you want for example a view with a button stack at the top, a map in the middle and another button stack at the bottom.
+插件可以定义多次，这在您想要一个顶部有按钮堆栈的视图、中间有一个地图、底部有另一个按钮堆栈的视图时特别有用。
 
-To define an extra addon of the same type in a single view you MUST add a suffix to the addon name, it doesn't matter what the name of the suffix is, as long as you use one. `addon_whatever:`
+要在单个视图中定义相同类型的额外插件，您必须在插件名称中添加后缀，后缀名称无关紧要，只要您使用一个即可。 `addon_whatever：`
 
 ```yaml
 # views.yaml (example of defining multiple addons of the same type)
