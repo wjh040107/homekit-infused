@@ -1,6 +1,6 @@
 # Homekit Infused 5
 
-＃＃ 内容
+## 内容
 - [简介](index.md)
 - [安装](installation.md)
 - [配置](configuration.md)
@@ -10,7 +10,7 @@
 - [关于我](about.md)
 - [谢谢](thanks.md)
 
-＃＃ 配置
+## 配置
 在 Homekit Infused 中，为内置插件或自定义卡片设置和配置视图非常容易。不要忘记阅读本页末尾的提示和技巧部分！
 
 *注意：要使以下配置中的任何更改生效，您必须重新启动 Home Assistant！
