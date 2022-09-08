@@ -1,39 +1,39 @@
 # Homekit Infused 5
 
-## Content
-- [Introduction](index.md)
-- [Installation](installation.md)
-- [Configuration](configuration.md)
-- [Addons](addons.md)
-- [Updates](updates.md)
-- [Issues & Questions](issues.md)
-- [About Me](about.md)
-- [Thanks](thanks.md)
+＃＃ 内容
+- [简介](index.md)
+- [安装](installation.md)
+- [配置](configuration.md)
+- [插件](addons.md)
+- [更新](updates.md)
+- [问题和问题](issues.md)
+- [关于我](about.md)
+- [谢谢](thanks.md)
 
-## Addons
-Addons are baked-in preconfigured cards that you can turn on/off on any view. You can add an addon by adding the key to your view configuration (which is done in /hki-user/config/views.yaml). ALL addons are preconfigured with a vertical-stack and a title, you MUST keep this in mind when defining addons. Each addon has some extra options for the stack, so the first section of each addons documentation shows you those extra options.
+## 插件
+插件是内置的预配置卡片，您可以在任何视图上打开/关闭。您可以通过将密钥添加到视图配置来添加插件（在 /hki-user/config/views.yaml 中完成）。所有插件都预先配置了垂直堆栈和标题，在定义插件时必须牢记这一点。每个插件都有一些额外的堆栈选项，因此每个插件文档的第一部分都会向您展示这些额外的选项。
 
-You can control the placement of the addons by using the [layout](addons/layout.md) addon and/or by changing the order of defining your addons. The addons that are defined first will be rendered first. How to exactly configure an addon depends on the addon and you should read the addons specific documentation before adding them to your configuration.
+您可以通过使用 [layout](addons/layout.md) 插件和/或更改定义插件的顺序来控制插件的放置。首先定义的插件将首先呈现。如何准确配置插件取决于插件，您应该在将插件添加到配置之前阅读插件特定文档。
 
 ```yaml
-# views.yaml (example how to add addons)
+# views.yaml (示例如何添加插件)
   my_view:
-    subtitle: Overview
+    subtitle: 概述
     icon: mdi:thermostat
     addons:
       thermostat:
-        - title: My thermostats
+        - title: 我的恒温器
           entities:
-            - # Thermostat addon config here!
+            - # 恒温器插件配置在这里！
 
   my_second_view:
-    subtitle: Overview
+    subtitle: 概述
     icon: mdi:vacuum-cleaner
     addons:
       button:
-        - title: My lights
+        - title: 我的灯
           entities:
-            - # Button addon config here!
+            - # 按钮插件配置在这里！
 ```
 # Addons
 
