@@ -28,16 +28,16 @@
 
 | 名称 | 必需 | 默认 | 说明 |
 |----------------------------------|-------------|----------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| title | no | undefined | Set the title of the stack, ommitting this line will or setting `title: hide` will hide the title |
-| [view_layout](layout.md#view-layout) | no | undefined | This is best used in conjunction with the [layout](layout.md#view-layout) addon, but can also be used to control whether to show this stack on different screen sizes. |
-| weather | no | unknown | Setup a weather entity to show the weather in this card |
-| hide_header | no | true | Whether to show/hide the header title of this card (this is NOT the same as the title defined above) |
-| air_pollution_level | yes | sensor.u_s_air_pollution_level | Set the air pollution sensor entity |
-| air_quality_index | yes | sensor.u_s_air_quality_index | Set the air quality index sensor entity |
-| main_pollutant | yes | sensor.u_s_main_pollutant | Set the main pollutant sensor entity |
-| city_name | yes | unknown | Set your city name |
-| type | no | undefined | Setting a type can make the stack condtional, this option will ONLY accept `conditional` |
-| conditions | no | undefined | Add entities and conditions, this will determine when this addon will be shown, e.g. if entity x is turned `on`, then show this addon (see [addons](../addons.md) for examples |
+| title | no | undefined | 设置栈的标题，省略此行或设置 `title: hide` 将隐藏标题 |
+| [view_layout](layout.md#view-layout) | no | undefined | 这最好与 [layout](layout.md#view-layout) 插件一起使用，但也可以用于控制是否在不同的屏幕尺寸上显示此堆栈 |
+| weather | no | unknown | 设置天气实体以在此卡片中显示天气 |
+| hide_header | no | true | 是否显示/隐藏此卡片的标题标题（这与上面定义的标题不同） |
+| air_pollution_level | yes | sensor.u_s_air_pollution_level | 设置空气污染传感器实体 |
+| air_quality_index | yes | sensor.u_s_air_quality_index | 设置空气质量指数传感器实体 |
+| main_pollutant | yes | sensor.u_s_main_pollutant | 设置主要污染物传感器实体 |
+| city_name | yes | unknown | 设置您的城市名称 |
+| type | no | undefined | 设置类型可以使堆栈有条件，此选项将只接受 `conditional` |
+| conditions | no | undefined | 添加实体和条件，这将确定何时显示此插件，例如 例如如果实体 x 已打开 `on`, 则显示此插件 (参见 [addons](../addons.md) 示例 |
 
 
 ```yaml
