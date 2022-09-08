@@ -30,19 +30,19 @@ HKI 4 没有直接的升级路径，HKI 5 的编写方式非常相似，但偏�
 以下是运行 Homekit Infused 所需的所有插件的列表，您可以通过 HACS 安装所有插件。
 | 名称 | 类型  | 说明 |
 |----------------------------------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Auto Entities](https://github.com/thomasloven/lovelace-auto-entities) | Frontend | 这张卡很方便快速填写某些域/实体 |
-| [Card Mod](https://github.com/thomasloven/lovelace-card-mod) | Frontend | 这个mod允许在任何卡片甚至堆栈上自定义css |
-| [Button Card](https://github.com/custom-cards/button-card) | Frontend | 这是整个设置过程中使用的按钮，**警告：请务必选择 `Show Beta Versions` 并选择最新版本！** |
-| [State Switch](https://github.com/thomasloven/lovelace-state-switch) | Frontend | 这用于使卡片基于某些条件出现，如条件卡片但更好 |
-| [Card Tools](https://github.com/thomasloven/lovelace-card-tools) | Frontend | 这是运行各种自定义卡所必需的 |
-| [Search Card](https://github.com/postlund/search-card) | Frontend | 一个易于使用的搜索卡 |
-| [Swipe Card](https://github.com/bramkragten/swipe-card) | Frontend | 此卡主要用于滚动通知 |
-| [Config Template Card](https://github.com/iantrich/config-template-card) | Frontend | 允许一些特定的模板，它是配置文件按钮所必需的 |
-| [Fold Entity Row](https://github.com/thomasloven/lovelace-fold-entity-row) | Frontend | 允许实体卡有一行可以折叠/折叠 |
-| [Text Input Row](https://github.com/gadgetchnnel/lovelace-text-input-row/) | Frontend | 允许文本输入行更宽 |
-| [Layout Card](https://github.com/thomasloven/lovelace-layout-card) | Frontend | 布局需要这张卡，重要提示：阅读下面的注释 |
-| [Browser Mod](https://github.com/thomasloven/hass-browser_mod) | Integration | Browser-mod 使浏览器更有用，并让我们有机会显示/创建自定义弹出窗口等等 |
-| [Lovelace Gen](https://github.com/thomasloven/hass-lovelace_gen) | Integration | 这是设置中最重要的部分，没有这个 HKI 将无法工作！不要将此添加到您的 `configuration.yaml` 文件中，因为包含的包已经为您这样做了，如果您的 `configuration.yaml` 中已经有 `lovelace_gen:`，请删除或注释该行！ |
+| [Auto Entities](https://github.com/thomasloven/lovelace-auto-entities) | 前端 | 这张卡很方便快速填写某些域/实体 |
+| [Card Mod](https://github.com/thomasloven/lovelace-card-mod) | 前端 | 这个mod允许在任何卡片甚至堆栈上自定义css |
+| [Button Card](https://github.com/custom-cards/button-card) | 前端 | 这是整个设置过程中使用的按钮，**警告：请务必选择 `Show Beta Versions` 并选择最新版本！** |
+| [State Switch](https://github.com/thomasloven/lovelace-state-switch) | 前端 | 这用于使卡片基于某些条件出现，如条件卡片但更好 |
+| [Card Tools](https://github.com/thomasloven/lovelace-card-tools) | 前端 | 这是运行各种自定义卡所必需的 |
+| [Search Card](https://github.com/postlund/search-card) | 前端 | 一个易于使用的搜索卡 |
+| [Swipe Card](https://github.com/bramkragten/swipe-card) | 前端 | 此卡主要用于滚动通知 |
+| [Config Template Card](https://github.com/iantrich/config-template-card) | 前端 | 允许一些特定的模板，它是配置文件按钮所必需的 |
+| [Fold Entity Row](https://github.com/thomasloven/lovelace-fold-entity-row) | 前端 | 允许实体卡有一行可以折叠/折叠 |
+| [Text Input Row](https://github.com/gadgetchnnel/lovelace-text-input-row/) | 前端 | 允许文本输入行更宽 |
+| [Layout Card](https://github.com/thomasloven/lovelace-layout-card) | 前端 | 布局需要这张卡，重要提示：阅读下面的注释 |
+| [Browser Mod](https://github.com/thomasloven/hass-browser_mod) | 集成 | Browser-mod 使浏览器更有用，并让我们有机会显示/创建自定义弹出窗口等等 |
+| [Lovelace Gen](https://github.com/thomasloven/hass-lovelace_gen) | 集成 | 这是设置中最重要的部分，没有这个 HKI 将无法工作！不要将此添加到您的 `configuration.yaml` 文件中，因为包含的包已经为您这样做了，如果您的 `configuration.yaml` 中已经有 `lovelace_gen:`，请删除或注释该行！ |
 ### 添加资源
 在 HACS 中安装卡时会自动添加资源，但请务必通过 侧边栏 > 仪表板 > 资源 进行检查。 如果没有列出资源，请确保您手动添加它们或通过 HACS 重新安装它们（如果单击“重新下载”，您可以找到要添加的url，您不需要重新下载它们，但您可以使用该URL手动添加资源）。
 
