@@ -1,18 +1,18 @@
 # Homekit Infused 5
 
-## Content
-- [Introduction](index.md)
-- [Installation](installation.md)
-- [Configuration](configuration.md)
-- [Addons](addons.md)
-- [Updates](updates.md)
-- [Issues & Questions](issues.md)
-- [About Me](about.md)
-- [Thanks](thanks.md)
+## 内容
+- [简介](index.md)
+- [安装](installation.md)
+- [配置](configuration.md)
+- [插件](addons.md)
+- [更新](updates.md)
+- [问题和疑问](issues.md)
+- [关于我](about.md)
+- [谢谢](thanks.md)
 
-# THANKS TO ALL OF YOU
-I wanted to thank everyone for supporting me, watching and subscribing to my channels, donating, downloading etc, helping me out, having posted addons or other great stuff for the community, and obviously the community itself ofcourse.
-All of you really, thank you. Here are a few names I want to specially thank!
+# 感谢大家
+我要感谢大家支持我，观看和订阅我的频道，捐赠，下载等，帮助我，为社区发布插件或其他很棒的东西，当然还有社区本身。
+真的，谢谢大家。 这里有几个名字我要特别感谢！
   - @ciotlosm
   - @thomasloven
   - @balloob
@@ -49,7 +49,7 @@ All of you really, thank you. Here are a few names I want to specially thank!
   - @HomeAssistantNL/BE Slack group
   - @everyone I forgot to mention
   
-# Thanks for Translating
+# 感谢翻译
   - @jolly for Italian
   - @yaazze for French
   - @hassan for Spanish
@@ -61,7 +61,7 @@ All of you really, thank you. Here are a few names I want to specially thank!
   - @aviabeksis for Hebrew
   - @donhimol for Polish
   
-# Special Thanks to my Donators
+# 特别感谢我的捐赠者
   - @marco
   - @huntergresh
   - @dhartsmith
@@ -97,4 +97,4 @@ All of you really, thank you. Here are a few names I want to specially thank!
   - @steve
   - @mny01
 
-I am really sorry, I have tried to get you all. But also a very big thank you to all of the ones not mentioned here. And ofcourse the Home Assistant community which helped me out a lot. Translations are no longer used, however I still want to thank them for their great input!
+我真的很抱歉，我试图让你们所有人。 但也非常感谢这里没有提到的所有人。 当然还有帮助我很多的家庭助理社区。 不再使用翻译，但我仍然要感谢他们的大力投入！
