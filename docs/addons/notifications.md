@@ -33,14 +33,14 @@
 
 ### 通知额外选项
 
-| Properties | Required | Default | Description |
+| 属性 | 必须 | 默认 | 说明 |
 |----------------------------------|-------------|----------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| icon | yes | none | Sets an icon to show with the notification, this accepts [JS templates](https://github.com/custom-cards/button-card#javascript-templates) |
-| name | yes | none | Sets the notification, this accepts [JS templates](https://github.com/custom-cards/button-card#javascript-templates) |
-| spin | no | false | Sets if the icon should spin when showing the notification |
-| [tap_action](https://github.com/custom-cards/button-card#Action) | no | undefined | Set a specific tap_action for this notification see [here](https://github.com/custom-cards/button-card#Action) for available options |
-| [hold_action](https://github.com/custom-cards/button-card#Action) | no | undefined | Set a specific hold_action for this notification see [here](https://github.com/custom-cards/button-card#Action) for available options |
-| [double_tap_action](https://github.com/custom-cards/button-card#Action) | no | undefined | Set a specific double_tap_action for this notification see [here](https://github.com/custom-cards/button-card#Action) for available options |
+| icon | yes | none | 设置一个图标来显示通知，这接受 [JS 模板](https://github.com/custom-cards/button-card#javascript-templates) |
+| name | yes | none | 设置通知，接受 [JS 模板](https://github.com/custom-cards/button-card#javascript-templates) |
+| spin | no | false | 设置显示通知时图标是否应该旋转 |
+| [tap_action](https://github.com/custom-cards/button-card#Action) | no | undefined | 为此通知设置特定的 tap_action ，请参阅 [此处](https://github.com/custom-cards/button-card#Action) 了解可用选项 |
+| [hold_action](https://github.com/custom-cards/button-card#Action) | no | undefined | 为此通知设置特定的 hold_action ，请参阅[此处](https://github.com/custom-cards/button-card#Action) 了解可用选项 |
+| [double_tap_action](https://github.com/custom-cards/button-card#Action) | no | undefined | 为此通知设置特定的 double_tap_action ，请参阅 [此处](https://github.com/custom-cards/button-card#Action) 了解可用选项 |
 
 ```yaml
 # notifications.yaml (多个通知示例)
@@ -112,6 +112,6 @@
 ### 额外信息
 有关更多示例，请查看我的 notifications.yaml 文件 [这里](https://github.com/jimz011/homekit-infused/blob/5.x.x-personal/hki-user/notifications.yaml)
 
-### Images:
+### 图片:
 
 ![Homekit Infused](../images/hki-notifications.png)
