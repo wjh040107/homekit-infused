@@ -27,14 +27,14 @@
 #### 查找我的额外选项
 您可以将以下任何选项传递给您的实体以自定义外观。 如果您没有设置 icon 或 picture_entity ，它将尝试从 customize.yaml 中获取它们。
 
-| Name | Required | Default | Description |
+| 名称 | 必须 | 默认 | 说明 |
 |----------------------------------|-------------|----------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| name | no | global_name | Set a name for this entity |
-| entity | yes | undefined | Set the entity used, these work best with either `person` or `device_tracker` entities |
-| icon | no | global_icon | Specify a custom icon for your entity |
-| entity_picture | no | global_entity_picture | Specify a custom entity_picture for your entity |
-| battery_entity | no | undefined | If this entity has a separate battery entity you can enter it here, else no battery is shown |
-| geocoded_location_entity | no | undefined | If this entity has a separate geocoded location entity you can enter it here, else not geocoded location is shown |
+| name | 否 | global_name | 为该实体设置名称。默认：全局名称 |
+| entity | 是 | 未定义 | 设置使用的实体，这些最适用于 `person` 或 `device_tracker` 实体 |
+| icon | 否 | global_icon | 为您的实体指定自定义图标 |
+| entity_picture | 否 | global_entity_picture | 为您的实体指定自定义 entity_picture |
+| battery_entity | 否 | 未定义 | 如果该实体有单独的电池实体，您可以在此处输入，否则不显示电池 |
+| geocoded_location_entity | 否 | 未定义 | 如果该实体有单独的地理编码位置实体，您可以在此处输入，否则将显示未地理编码的位置 |
 
 例子:
 
