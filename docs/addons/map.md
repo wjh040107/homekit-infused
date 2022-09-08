@@ -1,22 +1,22 @@
 # Homekit Infused 5
 
-## Content
-- [Introduction](../index.md)
-- [Installation](../installation.md)
-- [Configuration](../configuration.md)
-- [Addons](../addons.md)
-- [Updates](../updates.md)
-- [Issues & Questions](../issues.md)
-- [About Me](../about.md)
-- [Thanks](../thanks.md)
+## 内容
+- [简介](index.md)
+- [安装](installation.md)
+- [配置](configuration.md)
+- [插件](addons.md)
+- [更新](updates.md)
+- [问题和疑问](issues.md)
+- [关于我](about.md)
+- [谢谢](thanks.md)
 
 ## Addons > Map
 
-This addon gives your view a map that you can use with your own defined entities.
+此插件为您的视图提供了一个地图，您可以将其与您自己定义的实体一起使用。
 
-You can use any of the following options to modify your addon.
+您可以使用以下任何选项来修改您的插件。
 
-### Stack and Addon Config
+### 视图和插件配置
 
 | Name | Required | Default | Description |
 |----------------------------------|-------------|----------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -30,40 +30,40 @@ You can use any of the following options to modify your addon.
 | entities | yes | array | Add the entities you want in your stack, entities must be listed as an array |
 
 ```yaml
-# views.yaml (example)
+# views.yaml (例子)
   my_view:
     addons:
       map:
-        - title: Location Stephanie
+        - title: Location Stephanie    # 位置斯蒂芬妮
           default_zoom: 15
           aspect_ratio: 16x10
           entities:
             - person.stephanie
 ```              
 ```yaml
-# views.yaml (example with multiple maps)
+# views.yaml (具有多个地图的示例)
   my_view:
     addons:
       map:
-        - title: Location Stephanie
+        - title: Location Stephanie    # 位置斯蒂芬妮
           entities:
             - person.stephanie
-        - title: Location Jimmy
+        - title: Location Jimmy    # 位置吉米
           entities:
             - person.jimmy
 ```  
 ```yaml
-# views.yaml (example with multiple entities on single map)
+# views.yaml (单个地图上有多个实体的示例)
   my_view:
     addons:
       map:
-        - title: Location
+        - title: Location    # 地点
           entities:
             - person.stephanie
             - person.jimmy
             - person.tala
 ```  
 
-### Images:
+### 图片:
 
 ![Homekit Infused](../images/hki-map.png)
