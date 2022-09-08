@@ -61,7 +61,7 @@ Homekit Infused 是一个 YAML 风格的仪表板，因此您必须通过 YAML �
 | [custom_legacy](addons/custom-legacy.md) | no | undefined | Disable all addons and go full YAML style on your views, refer to the [Custom Legacy](addons/custom-legacy.md) section for documentation |
 
 ```yaml
-# views.yaml (example)
+# views.yaml (例子)
   kitchen:
     subtitle: My Kitchen
     button_badge: sensor.kitchen_temp
@@ -74,12 +74,12 @@ Homekit Infused 是一个 YAML 风格的仪表板，因此您必须通过 YAML �
 
 以下项目可以在 `/hki-user/config/config.yaml` 中找到。 默认情况下，这些设置是为您预定义的，但其中一些可以根据您自己的喜好进行编辑。 这不是运行 HKI 的必需步骤，但您将来需要编辑其中的一些。
 
-| Name | Description |
-|--------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [alarm](addons/alarm.md) | Change the behaviour/popup of the alarm badge in the header |
-| [header](addons/header.md) | Change the header badges and/or whether or not to show the subtitle globally |
-| [popups](addons/popups.md) | Change the location of the close button in popups and change the colors in RGB light popups |
-| [profile](addons/profile.md) | Change the contents of the profile menu, you can set the profile menu on a per user basis |
+| 姓名 | 说明 |
+|--------------------------|---------- -------------------------------------------------- -------------------------------------------------- -------------------------------------------------- ----------------------------------------------|
+| [alarm警报](addons/alarm.md) | 更改标题中警报徽章的行为/弹出 |
+| [header页眉]（addons/header.md）| 更改页眉徽章和/或是否全局显示通知 |
+| [popups弹出窗口](addons/popups.md) | 更改弹出窗口中关闭按钮的位置并更改 RGB 灯光弹出窗口中的颜色 |
+| [profile个人资料](addons/profile.md) | 更改配置文件菜单的内容，您可以根据每个用户设置配置文件菜单 |
 
 # Other Config
 
