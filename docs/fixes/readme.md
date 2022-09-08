@@ -1,11 +1,10 @@
-This will fix popups not working with button-cards.
+这将修复弹出窗口不适用于按钮卡。
 
-For some reason you can no longer download this version through HACS. Download button-card first through HACS.
-Once you are done, go to your `/www/community/button-card/` folder and replace the two files there with the two from this repo.
+由于某种原因，您不能再通过 HACS 下载此版本。 首先通过 HACS 下载按钮卡。 完成后，转到您的 /www/community/button-card/ 文件夹并将那里的两个文件替换为来自此 repo 的两个文件。
 
-You might need to change your permissions to this folder to be able to write in there.
+您可能需要更改对此文件夹的权限才能在其中写入。
 
-For Unraid users you can do something like this (change the path to match your own)
+对于 Unraid 用户，您可以执行以下操作（更改路径以匹配您自己的路径）
 
-`chmod 777 -R /mnt/user/appdata/Home-Assistant/www/community/button-card`
+chmod 777 -R /mnt/user/appdata/Home-Assistant/www/community/button-card
 
