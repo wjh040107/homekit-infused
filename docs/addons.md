@@ -95,7 +95,7 @@
             - switch.galaxy
 ```
 
-Addons can also be conditional depending on a state of an entity!
+插件也可以是有条件的，具体取决于实体的状态！
 
 ```yaml
 # views.yaml (example of defining multiple addons of the same type)
