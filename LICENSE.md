@@ -39,67 +39,67 @@ h. __Sui Generi Database Rights__ 指除版权以外的权利，由 1996 年 3 �
 
 i. __You__ 是指根据本公共许可行使许可权利的个人或实体。你有相应的含义。
 
-### Section 2 – Scope.
+### 第 2 节 - 范围。
 
-a. ___License grant.___
+a. ___许可证授予.___
 
-   1. Subject to the terms and conditions of this Public License, the Licensor hereby grants You a worldwide, royalty-free, non-sublicensable, non-exclusive, irrevocable license to exercise the Licensed Rights in the Licensed Material to:
+   1. 根据本公共许可的条款和条件，许可方特此授予您一项全球性、免版税、不可再许可、非排他性、不可撤销的许可，以在许可材料中行使许可权利：
 
-        A. reproduce and Share the Licensed Material, in whole or in part, for NonCommercial purposes only; and
+        A. 仅出于非商业目的全部或部分复制和共享许可材料；和
 
-        B. produce and reproduce, but not Share, Adapted Material for NonCommercial purposes only.
+        B. 仅出于非商业目的制作和复制，但不分享改编材料。
 
-   2. __Exceptions and Limitations.__ For the avoidance of doubt, where Exceptions and Limitations apply to Your use, this Public License does not apply, and You do not need to comply with its terms and conditions.
+   2. __例外和限制.__ 为免生疑问，如果例外和限制适用于您的使用，则本公共许可不适用，您无需遵守其条款和条件。
 
-   3. __Term.__ The term of this Public License is specified in Section 6(a).
+   3. __Term.__ 本公共许可证的期限在第 6(a) 节中指定。
 
-   4. __Media and formats; technical modifications allowed.__ The Licensor authorizes You to exercise the Licensed Rights in all media and formats whether now known or hereafter created, and to make technical modifications necessary to do so. The Licensor waives and/or agrees not to assert any right or authority to forbid You from making technical modifications necessary to exercise the Licensed Rights, including technical modifications necessary to circumvent Effective Technological Measures. For purposes of this Public License, simply making modifications authorized by this Section 2(a)(4) never produces Adapted Material.
+   4. __媒体和格式；允许进行技术修改。__ 许可方授权您以所有媒体和格式行使许可权利，无论是现在已知的还是以后创建的，并进行必要的技术修改。许可方放弃和/或同意不主张任何权利或授权禁止您进行必要的技术修改以行使许可权利，包括规避有效技术措施所需的技术修改。就本公共许可而言，仅根据第 2(a)(4) 节授权进行修改绝不会产生改编材料。
 
-   5. __Downstream recipients.__
+   5. __下游收件人.__
 
-        A. __Offer from the Licensor – Licensed Material.__ Every recipient of the Licensed Material automatically receives an offer from the Licensor to exercise the Licensed Rights under the terms and conditions of this Public License.
+        A. __来自许可方的提议 – 许可材料.__ 许可材料的每个接收者都会自动收到许可方的提议，以根据本公共许可的条款和条件行使许可权利。
 
-        B. __No downstream restrictions.__ You may not offer or impose any additional or different terms or conditions on, or apply any Effective Technological Measures to, the Licensed Material if doing so restricts exercise of the Licensed Rights by any recipient of the Licensed Material.
+        B. __没有下游限制.__ 如果限制许可材料的任何接收者行使许可权利，您不得对许可材料提供或施加任何附加或不同的条款或条件，或对许可材料应用任何有效的技术措施。
 
-   6. __No endorsement.__ Nothing in this Public License constitutes or may be construed as permission to assert or imply that You are, or that Your use of the Licensed Material is, connected with, or sponsored, endorsed, or granted official status by, the Licensor or others designated to receive attribution as provided in Section 3(a)(1)(A)(i).
+   6. __没有背书.__ 本公共许可证中的任何内容均不构成或可能被解释为允许断言或暗示您是，或您对许可材料的使用与以下机构相关，或由以下机构赞助、认可或授予官方地位，许可人或其他指定接受第 3(a)(1)(A)(i) 条规定的归属的人。
 
-b. ___Other rights.___
+b. ___其他权利.___
 
-   1. Moral rights, such as the right of integrity, are not licensed under this Public License, nor are publicity, privacy, and/or other similar personality rights; however, to the extent possible, the Licensor waives and/or agrees not to assert any such rights held by the Licensor to the limited extent necessary to allow You to exercise the Licensed Rights, but not otherwise.
+   1. 道德权利，例如完整权，未根据本公共许可证获得许可，公开权、隐私权和/或其他类似人格权也未获得许可；但是，在可能的范围内，许可方放弃和/或同意在允许您行使许可权利所需的有限范围内不主张许可方持有的任何此类权利，但不得以其他方式行使。
 
-   2. Patent and trademark rights are not licensed under this Public License.
+   2. 专利权和商标权未根据本公共许可证许可。
 
-   3. To the extent possible, the Licensor waives any right to collect royalties from You for the exercise of the Licensed Rights, whether directly or through a collecting society under any voluntary or waivable statutory or compulsory licensing scheme. In all other cases the Licensor expressly reserves any right to collect such royalties, including when the Licensed Material is used other than for NonCommercial purposes.
+   3. 在可能的情况下，许可方放弃为行使许可权利向您收取特许权使用费的任何权利，无论是直接还是通过任何自愿或可放弃的法定或强制许可计划下的收费协会。在所有其他情况下，许可方明确保留收取此类版税的任何权利，包括当许可材料用于非商业目的时。
 
-### Section 3 – License Conditions.
+### 第 3 节 – 许可条件。
 
-Your exercise of the Licensed Rights is expressly made subject to the following conditions.
+您对许可权利的行使明确遵守以下条件。
 
-a. ___Attribution.___
+a. ___归因。___
 
-   1. If You Share the Licensed Material, You must:
+   1. 如果您共享许可材料，您必须：
 
-      A. retain the following if it is supplied by the Licensor with the Licensed Material:
+      A. 如果许可方随许可材料一起提供，请保留以下内容：
 
-         i. identification of the creator(s) of the Licensed Material and any others designated to receive attribution, in any reasonable manner requested by the Licensor (including by pseudonym if designated);
+         一世。以许可人要求的任何合理方式（包括如果指定的化名），识别许可材料的创建者和任何其他指定接受归属的人；
 
-         ii. a copyright notice;
+         ii.版权声明；
 
-         iii. a notice that refers to this Public License;
+         iii.提及本公共许可证的通知；
 
-         iv. a notice that refers to the disclaimer of warranties;
+         iv.提及免责声明的通知；
 
-         v. a URI or hyperlink to the Licensed Material to the extent reasonably practicable;
+         v. 在合理可行的范围内，指向许可材料的 URI 或超链接；
 
-      B. indicate if You modified the Licensed Material and retain an indication of any previous modifications; and
+      B. 说明您是否修改了许可材料并保留任何先前修改的说明；和
 
-      C. indicate the Licensed Material is licensed under this Public License, and include the text of, or the URI or hyperlink to, this Public License.
+      C. 表明许可材料是根据本公共许可证获得许可的，并包括本公共许可证的文本、URI 或超链接。
  
-        For the avoidance of doubt, You do not have permission under this Public License to Share Adapted Material.
+        为免生疑问，您无权根据本公共许可共享改编材料。
 
-   2. You may satisfy the conditions in Section 3(a)(1) in any reasonable manner based on the medium, means, and context in which You Share the Licensed Material. For example, it may be reasonable to satisfy the conditions by providing a URI or hyperlink to a resource that includes the required information.
+   2. 您可以基于您共享许可材料的媒介、方式和背景，以任何合理的方式满足第 3(a)(1) 条中的条件。例如，通过提供包含所需信息的资源的 URI 或超链接来满足条件可能是合理的。
 
-   3. If requested by the Licensor, You must remove any of the information required by Section 3(a)(1)(A) to the extent reasonably practicable.
+   3. 如果许可方要求，您必须在合理可行的范围内删除第 3(a)(1)(A) 条要求的任何信息。
 
 ### Section 4 – Sui Generis Database Rights.
 
