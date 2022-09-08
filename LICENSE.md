@@ -1,10 +1,10 @@
 # Attribution-NonCommercial-NoDerivatives 4.0 International
 
-> *Creative Commons Corporation (“Creative Commons”) is not a law firm and does not provide legal services or legal advice. Distribution of Creative Commons public licenses does not create a lawyer-client or other relationship. Creative Commons makes its licenses and related information available on an “as-is” basis. Creative Commons gives no warranties regarding its licenses, any material licensed under their terms and conditions, or any related information. Creative Commons disclaims all liability for damages resulting from their use to the fullest extent possible.*
+> *Creative Commons Corporation（“Creative Commons”）不是律师事务所，不提供法律服务或法律建议。知识共享公共许可的分发不会建立律师-客户或其他关系。知识共享在“原样”的基础上提供其许可和相关信息。知识共享对其许可、根据其条款和条件许可的任何材料或任何相关信息不提供任何保证。 Creative Commons 不对因使用它们而造成的损害承担任何责任。 *
 >
-> ### Using Creative Commons Public Licenses
+> ### 使用知识共享公共许可证
 >
-> Creative Commons public licenses provide a standard set of terms and conditions that creators and other rights holders may use to share original works of authorship and other material subject to copyright and certain other rights specified in the public license below. The following considerations are for informational purposes only, are not exhaustive, and do not form part of our licenses.
+> 知识共享公共许可提供了一套标准的条款和条件，创作者和其他权利持有人可以使用这些条款和条件来分享原创作品和其他受版权和以下公共许可中规定的某些其他权利约束的材料。以下注意事项仅供参考，并非详尽无遗，也不构成我们许可的一部分。
 >
 > * __Considerations for licensors:__ Our public licenses are intended for use by those authorized to give the public permission to use material in ways otherwise restricted by copyright and certain other rights. Our licenses are irrevocable. Licensors should read and understand the terms and conditions of the license they choose before applying it. Licensors should also secure all rights necessary before applying our licenses so that the public can reuse the material as expected. Licensors should clearly mark any material not subject to the license. This includes other CC-licensed material, or material used under an exception or limitation to copyright. [More considerations for licensors](http://wiki.creativecommons.org/Considerations_for_licensors_and_licensees#Considerations_for_licensors).
 >
