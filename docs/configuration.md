@@ -53,7 +53,7 @@ Homekit Infused 是一个 YAML 风格的仪表板，因此您必须通过 YAML �
 | show_in_menu | 否 | 未定义 | 这将强制在菜单插件中显示视图，这在使用 `menu:` 或 `view_selector:` addon 时非常有用 |
 | button_label | 否 | 无标签 | 设置按钮标签文本，这接受 [JS 模板](https://github.com/custom-cards/button-card#javascript-templates) |
 | button_badge | 否 | 未定义 | 这将为菜单和收藏夹按钮设置一个bagde，它将始终显示输入实体的状态，您可以使用任何实体_id (例如. `sensor.current_temperature`) |
-| show_in_navbar | 否 | false | “设置为true”如果您希望此视图在导航栏中可见，这与菜单不同 |
+| show_in_navbar | 否 | false | 设置为 `true` 如果您希望此视图在导航栏中可见，这与菜单不同 |
 | visible | 否 | 未定义 | 这将仅为某些用户显示导航栏图标，这仅反映 `show_in_navbar` 为 `true` 时，这必须定义为列表！查看[官方文件](https://www.home-assistant.io/lovelace/views/#visible)更多信息。注意：任何用户仍然可以访问URL |
 | [addons](addons.md) | 否 | 未定义 | 若要在视图中添加一个插件，请参阅[Addons](addons.md)部分以获取文档 |
 | [layout](addons/layout.md) | 否 | 未定义 | 更改视图布局，请参阅[Layout](addons/layout.md)部分的文档 |
