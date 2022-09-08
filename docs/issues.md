@@ -6,7 +6,7 @@
 - [配置](configuration.md)
 - [插件](addons.md)
 - [更新](updates.md)
-- [问题和问题](issues.md)
+- [问题和疑问](issues.md)
 - [关于我](about.md)
 - [谢谢](thanks.md)
 
@@ -20,5 +20,5 @@
   - 如果您的弹出窗口不起作用，请从 [此处](fixes/) 下载按钮卡修复程序
   - 如果遇到 `t.setConfig is not a function` 错误，请从 HACS 重新下载 `Swipe Card` ！
 
-#### 问题？
-如有问题，请访问此 repo [主页](https://github.com/jimz011/homekit-infused) 上的任何支持链接。
+#### 疑问？
+如有疑问，请访问此 repo [主页](https://github.com/jimz011/homekit-infused) 上的任何支持链接。
