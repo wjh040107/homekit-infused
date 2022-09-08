@@ -55,16 +55,16 @@
 # config.yaml (示例人员和设备)
   find_my:
     persons:
-      - name: Jimmy
+      - name: Jimmy             # 吉米
         entity: person.jimmy
         battery_entity: sensor.sm_n976b_battery_level
         geocoded_location_entity: sensor.sm_n976b_geocoded_location
-      - name: Stephanie
+      - name: Stephanie         # 斯蒂芬妮
         entity: person.stephanie
         battery_entity: sensor.sm_n986b_batterijniveau
         geocoded_location_entity: sensor.sm_n986b_gegeocodeerde_locatie
     devices:
-      - name: Tile Pro
+      - name: Tile Pro          # Tile Pro 
         entity: device_tracker.dog
       - name: Note 10+ 5G
         entity: device_tracker.sm_n976b
@@ -72,16 +72,16 @@
         battery_entity: sensor.sm_n976b_battery_level
 ```
 
-#### Entity Picture Tips
-You can use entity pictures so that your view will look like the ones from the screenshots. It is recommended that you create the entity pictures yourself and not just enter pictures you find on the internet.
+#### 实体图片提示
+您可以使用实体图片，以便您的视图看起来像屏幕截图中的视图。 建议您自己创建实体图片，而不仅仅是输入您在互联网上找到的图片。
 
-The best settings will be to open paint/photoshop. Create a square of 130x130 pixels and put your entity picture in the middle of it (resize the photo at will).
+最好的设置是打开 paint/photoshop 。 创建一个 130x130 像素的正方形，将你的实体图片放在它的中间（随意调整照片大小）。
 
-NOTE: The default theme uses a white button, if you want to use another color I recommend you to change the background color of the images you are going to use as well!
+注意：默认主题使用白色按钮，如果您想使用其他颜色，我建议您更改要使用的图像的背景颜色！
 
-#### Bonus Entity Picture Tips
-- If you have iCloud you can get beautiful ready to go images from the icloud website by logging in view icloud and then saving the images to your desktop.
-- If you use the Unifi Controller you can get some nice images as well by clicking any device and then click on report wrong icon (this will open up a search menu in which you can right-click to save, note that Apple users will want to try Chrome or Firefox since Safari doesn't support this).
+#### 额外实体图片提示
+- 如果您有 iCloud，您可以通过登录 view icloud，然后将图像保存到您的桌面，从 icloud 网站准备好漂亮的图像。
+- 如果您使用 Unifi 控制器，您也可以通过单击任何设备然后单击报告错误图标来获得一些漂亮的图像（这将打开一个搜索菜单，您可以在其中右键单击保存，注意 Apple 用户会需要 Chrome 或 Firefox，因为 Safari 不支持此功能）。
 
 ### 图片:
 
