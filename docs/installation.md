@@ -1,34 +1,33 @@
 # Homekit Infused 5
 
-## Content
-- [Introduction](index.md)
-- [Installation](installation.md)
-- [Configuration](configuration.md)
-- [Addons](addons.md)
-- [Updates](updates.md)
-- [Issues & Questions](issues.md)
-- [About Me](about.md)
-- [Thanks](thanks.md)
+## 内容
+- [简介](index.md)
+- [安装](installation.md)
+- [配置](configuration.md)
+- [插件](addons.md)
+- [更新](updates.md)
+- [问题和问题](issues.md)
+- [关于我](about.md)
+- [谢谢](thanks.md)
 
-### Installation
-##### NOTE
-There is no direct upgrade path from HKI 4, the way HKI 5 is written is very similar, but deviates too much to make a decent upgrade possible. HKI 4 users should start fresh. If you are a new user, this doesn't apply to you and you can continue on to the next step of the documentation.
+### 安装
+# 笔记
+HKI 4 没有直接的升级路径，HKI 5 的编写方式非常相似，但偏差太大，无法进行体面的升级。 HKI 4 用户应该重新开始。如果您是新用户，这不适用于您，您可以继续进行文档的下一步。
 
-There is also a video guide available [HERE](https://www.youtube.com/playlist?list=PLezjWQmPsNpF9zNbWAXfm3mcnDwFYLdpT), but it is always recommended to keep the documentation at hand since video's tend to age fast!
+还有一个可用的视频指南 [这里](https://www.youtube.com/playlist?list=PLezjWQmPsNpF9zNbWAXfm3mcnDwFYLdpT)，但始终建议您将文档放在手边，因为视频的老化速度很快！
 
-##### Advice
-- Install Home Assistant or create a backup of your current setup. I will advise you to install this on a clean Home Assistant install, though it is not a requirement.
-- Add all your known devices to Home Assistant (if integrations are available the prefered way would be to use that instead of putting it in manually.
-- Create person entities in the UI go to configuration>persons and create all the persons in your house. Add the device_trackers you have to the person entities via the dropdown menu. Also add an entity_picture to the entities so your entities will look better and you'll get a personalized profile button.
+# 建议
+- 安装 Home Assistant 或创建当前设置的备份。我会建议您在干净的 Home Assistant 安装上安装它，尽管这不是必需的。
+- 将所有已知设备添加到 Home Assistant（如果集成可用，首选方法是使用它而不是手动放入。
+- 在 UI 中创建人员实体转到配置>人员并创建您家中的所有人员。通过下拉菜单将您拥有的 device_trackers 添加到人员实体。还将 entity_picture 添加到实体中，以便您的实体看起来更好，并且您将获得个性化的个人资料按钮。
 
-##### Requirements
-- Create a secrets.yaml file in the root of your HA installation if you do not have it already. Add the following line on any line within that file `alarm_code: 123456`. You can change the code to whatever number you want. DO NOT SKIP THIS PART or HKI will fail to start.
-- Install HACS https://hacs.xyz/docs/installation/manual
-- Install all of the cards/components below.
+# 要求
+- 如果您还没有，请在 HA 安装的根目录中创建一个 secrets.yaml 文件。在该文件 `alarm_code: 123456` 中的任何行上添加以下行。您可以将代码更改为您想要的任何数字。不要跳过这部分，否则 HKI 将无法启动。
+- 安装 HACS https://hacs.xyz/docs/installation/manual
+- 安装下面的所有卡/组件。
 
 ### HACS
-Below is a list of all the addons required to run the Homekit Infused, you can install ALL of them through HACS.
-
+以下是运行 Homekit Infused 所需的所有插件的列表，您可以通过 HACS 安装所有插件。
 | Name | Type  | Description |
 |----------------------------------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [Auto Entities](https://github.com/thomasloven/lovelace-auto-entities) | Frontend | This card is handy to fill certain domains/entities very quickly |
@@ -67,22 +66,22 @@ homeassistant:
 Optionally you can add the images folder to your setup (it has some useful images that you might want to use):
 - Copy the `/www/` folder to the root of your setup
 
-**NOTE:** The packages folder has 2 extra folders named `homekit-infused-theme` and `homekit-infused-extra`, these 2 packages are optional and can be removed safely if you do not wish to make use of the advanced theming options in HKI or the extra additional sensors HKI can create for you.
+**注意：** packages 文件夹有 2 个额外的文件夹，名为 `homekit-infused-theme` 和 `homekit-infused-extra`，这两个软件包是可选的，如果您不想使用 HKI 中的高级主题选项或 HKI 可以为您创建的额外传感器。
 
-## That's it! You have succesfully installed the Homekit Infused! Now go on with configuring it :P
+## 这样！ 您已成功安装 Homekit Infused！ 现在继续配置它 :P
 
-### Extra Information
-#### Dwains Dashboard!
+### 额外的信息
+#### Dwains Dashboard！
 
-If you happen to have [Dwains Dashboard](https://github.com/dwainscheeren/dwains-lovelace-dashboard) you must comment out a line in the Homekit Infused configuration files.
+如果你碰巧有 [Dwains Dashboard](https://github.com/dwainscheeren/dwains-lovelace-dashboard) 你必须在 Homekit Infused 配置文件中注释掉一行。
 
-You must proceed with the following change, this must be repeated EVERY time HKI gets updated! You must comment (or remove) the following line.
+您必须继续进行以下更改，每次 HKI 更新时都必须重复此更改！ 您必须注释（或删除）以下行。
 ```yaml
 # in /packages/homekit_infused/hki_configuration.yaml
 lovelace_gen: !include_dir_merge_named ../../hki-user/config/
 ```
 
-This is line 1 and should look like this after the change
+这是第 1 行，更改后应如下所示
 
 ```yaml
 # lovelace_gen: !include_dir_merge_named ../../hki-user/config/
